@@ -424,7 +424,17 @@ engines:
         primary_publish_template: photoshop_shot_publish
         primary_scene_item_type: work_file
         primary_tank_type: Photoshop Image
-        secondary_outputs: []
+        secondary_outputs:
+        - description: Send to Screening Room for review
+          display_group: Review
+          display_name: Send to review
+          icon: icons/publish_send_to_review.png
+          name: send_to_review
+          publish_template: null
+          required: false
+          scene_item_type: send_to_review
+          selected: true
+          tank_type: '' 
         template_work: photoshop_shot_work
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-snapshot:
