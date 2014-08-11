@@ -40,10 +40,10 @@ engines:
         tk-multi-launchphotoshop: '@launch_photoshop'
         tk-multi-launchsoftimage: '@launch_softimage'
         tk-multi-screeningroom: '@launch_screeningroom'
-
     collapse_rules: 
     - {button_label: '$app', match: 'Launch $app', menu_label: None}
-
+    debug_logging: false
+    default_group: Studio
     groups:
     - matches: ['*Hiero*', '*Houdini*', '*Mari*', '*Max*', '*Maya*', '*Motion*', '*Nuke*', '*Photoshop*', '*Softimage*']
       name: Creative Tools
