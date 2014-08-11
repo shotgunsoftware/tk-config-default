@@ -1,11 +1,11 @@
 # Copyright (c) 2013 Shotgun Software Inc.
-# 
+#
 # CONFIDENTIAL AND PROPRIETARY
-# 
-# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit 
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
 # Source Code License included in this distribution package. See LICENSE.
-# By accessing, using, copying or modifying this work you indicate your 
-# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
 # not expressly granted therein are reserved by Shotgun Software Inc.
 #
 
@@ -23,7 +23,7 @@ description: Apps and engines loaded when an Asset is loaded. Since std VFX conf
 includes: [./includes/app_launchers.yml, ./includes/common_apps.yml]
 
 #################################################################################################
-# define all the items that should appear in this environment 
+# define all the items that should appear in this environment
 
 engines:
   tk-3dsmax:
@@ -34,7 +34,7 @@ engines:
     debug_logging: false
     location: {name: tk-3dsmax, type: app_store, version: v0.3.2}
   tk-maya:
-    apps: 
+    apps:
         tk-multi-workfiles: '@workfiles-launch-at-startup'
         tk-multi-about: '@about'
         tk-multi-screeningroom: '@launch_screeningroom'
@@ -46,11 +46,11 @@ engines:
     template_project: null
     use_sgtk_as_menu_name: false
   tk-nuke:
-    apps: 
+    apps:
         tk-multi-workfiles: '@workfiles'
         tk-multi-about: '@about'
         tk-multi-screeningroom: '@launch_screeningroom'
-    compatibility_dialog_min_version: 8
+    compatibility_dialog_min_version: 9
     debug_logging: false
     favourite_directories: []
     location: {name: tk-nuke, type: app_store, version: v0.2.23}
@@ -59,7 +59,7 @@ engines:
     project_favourite_name: Shotgun Current Project
     use_sgtk_as_menu_name: false
   tk-photoshop:
-    apps: 
+    apps:
         tk-multi-workfiles: '@workfiles'
         tk-multi-about: '@about'
         tk-multi-screeningroom: '@launch_screeningroom'
@@ -72,10 +72,9 @@ engines:
       tk-shotgun-launchmaya: '@launch_maya'
       tk-shotgun-launchnuke: '@launch_nuke'
       tk-shotgun-launchphotoshop: '@launch_photoshop'
-    debug_logging: false
     location: {name: tk-shell, type: app_store, version: v0.4.0}
   tk-softimage:
-    apps: 
+    apps:
         tk-multi-workfiles: '@workfiles'
         tk-multi-about: '@about'
         tk-multi-screeningroom: '@launch_screeningroom'
