@@ -153,14 +153,6 @@ launch_screeningroom:
   rv_path_mac: '@rv_mac'
   rv_path_windows: '@rv_win'
 
-launch_shotgun_screeningroom:
-  deny_permissions: []
-  deny_platforms: []
-  location: {name: tk-shotgun-launchscreeningroom, type: app_store, version: v0.1.7}
-  rv_path_linux: '@rv_linux'
-  rv_path_mac: '@rv_mac'
-  rv_path_windows: '@rv_win'
-
 launch_softimage:
   defer_keyword: ''
   engine: tk-softimage

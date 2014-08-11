@@ -28,5 +28,7 @@ def create(sg, project_id, log, **kwargs):
     Insert post-project code here
     """
     # the default config does not require any post-session stuff.
-    pass
+    import sgtk
+    tk = sgtk.sgtk_from_entity("Project", project_id)
+    tk.create_filesystem_structure("Project", project_id)
 
