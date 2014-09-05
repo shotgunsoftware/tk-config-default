@@ -102,7 +102,31 @@ keys:
     task_name:
         type: str
         shotgun_entity_type: Task
-        shotgun_field_name: content 
+        shotgun_field_name: content
+        
+    # These are used for the CreateDelivery app
+    delivery_version:
+        type: int
+        format_spec: "02"
+    title:
+        type: str
+    dir:
+        # This is here so I can build a relative path with a template without having it include the
+        # install directory too.  Would be awesome if we could have a @no_root tag or something!
+        type: str
+    code:
+        type: str
+    version_number:
+        type: int
+        format_spec: "04"
+    sg_version_type:
+        type: str
+        filter_by: alphanumeric
+    file_type:
+        type: str
+        filter_by: alphanumeric
+    username:
+        type: str
 
 
 
@@ -140,7 +164,8 @@ paths:
     # The location of published maya files
     hiero_project_publish: 'editorial/publish/{name}_v{version}.hrox'
     hiero_project_publish_area: 'editorial/publish'
-
+    
+    
     
     ##########################################################################################
     # Sequence level paths 
@@ -493,4 +518,15 @@ strings:
 
     # define how new Mari projects should be named
     mari_asset_project_name: "{mari_project_name} - Asset {asset_name}, {task_name}"
+    
+    # define how deliveries should be named in tk-multi-createdelivery
+    delivery_name: "{YYYY}_{MM}_{DD}_{username}_v{delivery_version}"
+    # define parent relative path of files within delivery bundle
+    delivery_relative_path: 'From{dir}{YYYY}_{MM}_{DD}{dir}{title}'
+    
+    # define how version names should be parsed in tk-multi-createdelivery
+    shot_version_name: "{Shot}_{sg_version_type}_v{version_number}"
+    asset_version_name: "{Asset}_{sg_version_type}_v{version_number}"
+    basic_frames_template: "{code}.{SEQ}.{file_type}"
+    basic_movie_template: "{code}.{file_type}"
     
