@@ -127,6 +127,8 @@ keys:
         filter_by: alphanumeric
     username:
         type: str
+        shotgun_entity_type: HumanUser
+        shotgun_field_name: login
 
 
 
