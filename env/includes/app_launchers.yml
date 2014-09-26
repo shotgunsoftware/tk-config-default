@@ -27,7 +27,7 @@ includes:
 
 launch_3dsmax:
   defer_keyword: ''
-  engine: tk-3dsmax
+  engine: tk-3dsmaxplus
   extra: {}
   hook_app_launch: default
   hook_before_app_launch: default

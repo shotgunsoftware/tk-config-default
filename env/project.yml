@@ -22,13 +22,13 @@ includes: [./includes/app_launchers.yml, ./includes/common_apps.yml]
 
 engines:
 
-  tk-3dsmax:
+  tk-3dsmaxplus:
     apps:
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles: '@workfiles'
     debug_logging: false
-    location: {name: tk-3dsmax, type: app_store, version: v0.3.2}
+    location: {name: tk-3dsmaxplus, type: app_store, version: v0.1.3}
     
   tk-desktop:
     apps:
