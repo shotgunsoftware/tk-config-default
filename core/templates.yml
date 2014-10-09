@@ -105,9 +105,12 @@ keys:
         shotgun_field_name: content
         
     # These are used for the CreateDelivery app
-    delivery_version:
+    delivery_version_by_day:
         type: int
         format_spec: "02"
+    delivery_version_by_vendor:
+        type: int
+        format_spec: "03"
     title:
         type: str
     dir:
@@ -522,7 +525,7 @@ strings:
     mari_asset_project_name: "{mari_project_name} - Asset {asset_name}, {task_name}"
     
     # define how deliveries should be named in tk-multi-createdelivery
-    delivery_name: "{YYYY}_{MM}_{DD}_{username}_v{delivery_version}"
+    delivery_name: "{YYYY}_{MM}_{DD}_{username}_v{delivery_version_by_day}"
     # define parent relative path of files within delivery bundle
     delivery_relative_path: 'From{dir}{YYYY}_{MM}_{DD}{dir}{title}'
     
