@@ -1,11 +1,11 @@
 # Copyright (c) 2013 Shotgun Software Inc.
-# 
+#
 # CONFIDENTIAL AND PROPRIETARY
-# 
-# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit 
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
 # Source Code License included in this distribution package. See LICENSE.
-# By accessing, using, copying or modifying this work you indicate your 
-# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
 # not expressly granted therein are reserved by Shotgun Software Inc.
 #
 
@@ -61,12 +61,11 @@ houdini_linux: '/opt/hfs13.0.498/bin/houdini'
 #
 photoshop_mac: /Applications/Adobe Photoshop CS6/Adobe Photoshop CS6.app
 photoshop_win: 'C:\Program Files\Adobe\Adobe Photoshop CS6 (64 Bit)\Photoshop.exe'
-photoshop_extras:         
+photoshop_extras:
     mac_extension_manager_path: /Applications/Adobe Extension Manager CS6/Adobe Extension Manager CS6.app
     mac_python_path: /usr/bin/python
     windows_extension_manager_path: 'C:\Program Files (x86)\Adobe\Adobe Extension Manager CS6\XManCommand.exe'
     windows_python_path: 'C:\Python27\python.exe'
-
 
 #
 # Hiero
@@ -74,6 +73,24 @@ photoshop_extras:
 hiero_mac: /Applications/Hiero1.8v2/Hiero1.8v2.app
 hiero_win: C:\Program Files\The Foundry\Hiero1.8v2\hiero.exe
 hiero_linux: /usr/local/Hiero1.8v2/bin/Hiero1.8v2
+
+#
+# Flame
+#
+flame_linux: /usr/discreet/flame_2015.2/bin/startApplication
+
+#
+# Flame Assist
+#
+flame_assist_mac: /usr/discreet/flameassist_2015.2/bin/startApplication
+flame_assist_linux: /usr/discreet/flameassist_2015.2/bin/startApplication
+
+#
+# Flare
+#
+flare_mac: /usr/discreet/flare_2015.2/bin/startApplication
+flare_linux: /usr/discreet/flare_2015.2/bin/startApplication
+
 
 #
 # Softimage
@@ -88,4 +105,3 @@ softimage_linux: XSI
 rv_mac: /Applications/RV64.app
 rv_win: C:\Program Files\RV\RV64.exe
 rv_linux: rv
-
