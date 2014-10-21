@@ -1,23 +1,23 @@
 # Copyright (c) 2013 Shotgun Software Inc.
-# 
+#
 # CONFIDENTIAL AND PROPRIETARY
-# 
-# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit 
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
 # Source Code License included in this distribution package. See LICENSE.
-# By accessing, using, copying or modifying this work you indicate your 
-# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
 # not expressly granted therein are reserved by Shotgun Software Inc.
 
 #
 # This file is one of the central points in the Shotgun Pipeline Toolkit configuration and
 # a counterpart to the folder configuration structure.
 #
-# The folder structure underneath the project folder is used to create folders on disk - 
-# templates.yml (this file) refers to those folders. Therefore, the two files need to be 
+# The folder structure underneath the project folder is used to create folders on disk -
+# templates.yml (this file) refers to those folders. Therefore, the two files need to be
 # in sync. This file contains an overview of all locations that are used by Sgtk.
 #
-# Whenever an app or an engine refers to a location on disk, it is using an entry defined in 
-# this file. For more information, see the Shotgun Pipeline Toolkit Documentation. 
+# Whenever an app or an engine refers to a location on disk, it is using an entry defined in
+# this file. For more information, see the Shotgun Pipeline Toolkit Documentation.
 
 
 
@@ -55,12 +55,14 @@ keys:
         type: int
     height:
         type: int
-        
+    segment_name:
+        type: str
+
     # Represents the optional output name for frames written by the Shotgun Write Node
     output:
         type: str
         filter_by: alphanumeric
-        
+
     SEQ:
         type: sequence
         format_spec: "04"
@@ -68,7 +70,7 @@ keys:
         type: str
     node:
         type: str
-    
+
     # these are used by the hiero exporter and pipeline
     YYYY:
         type: int
@@ -82,8 +84,8 @@ keys:
         alias: DD
     project:
         type: str
-        
-    # These are used for the Mari UDIM pipeline:        
+
+    # These are used for the Mari UDIM pipeline:
     UDIM:
         type: sequence
         default: "<UDIM>"
@@ -91,7 +93,7 @@ keys:
         type: str
     layer:
         type: str
-        
+
     mari_project_name:
         type: str
         alias: name
@@ -102,7 +104,7 @@ keys:
     task_name:
         type: str
         shotgun_entity_type: Task
-        shotgun_field_name: content 
+        shotgun_field_name: content
 
 
 
@@ -123,7 +125,7 @@ paths:
     sequence_root: sequences/{Sequence}
 
     ##########################################################################################
-    # Project level paths 
+    # Project level paths
     #
 
     #
@@ -141,14 +143,19 @@ paths:
     hiero_project_publish: 'editorial/publish/{name}_v{version}.hrox'
     hiero_project_publish_area: 'editorial/publish'
 
-    
+
     ##########################################################################################
-    # Sequence level paths 
+    # Sequence level paths
     #
 
+    flame_segment_clip: 'sequences/{Sequence}/{Shot}/editorial/flame/sources/{segment_name}.clip'
+    flame_shot_clip:    'sequences/{Sequence}/{Shot}/editorial/flame/{Shot}.clip'
+    flame_shot_batch:   'sequences/{Sequence}/{Shot}/editorial/flame/batch/{Shot}.v{version}.batch'
+    flame_shot_plate_dpx:   'sequences/{Sequence}/{Shot}/editorial/dpx_plates/v{version}/{segment_name}/{segment_name}_{Shot}.v{version}.{SEQ}.dpx'
+    flame_shot_plate_exr:   'sequences/{Sequence}/{Shot}/editorial/exr_plates/v{version}/{segment_name}/{segment_name}_{Shot}.v{version}.{SEQ}.exr'
 
     ##########################################################################################
-    # Shot level paths 
+    # Shot level paths
     #
 
     #
@@ -172,7 +179,7 @@ paths:
 
     # define the location of a work area
     shot_work_area_maya: '@shot_root/work/maya'
-    
+
     # define the location of a publish area
     shot_publish_area_maya: '@shot_root/publish/maya'
 
@@ -218,7 +225,7 @@ paths:
 
     # define the location of a work area
     shot_work_area_max: '@shot_root/work/3dsmax'
-    
+
     # define the location of a publish area
     shot_publish_area_max: '@shot_root/publish/3dsmax'
 
@@ -252,12 +259,12 @@ paths:
     mobu_shot_publish: '@shot_root/publish/mobu/{name}.v{version}.fbx'
 
     #
-    # Nuke 
+    # Nuke
     #
 
     # define the location of a work area
     shot_work_area_nuke: '@shot_root/work/nuke'
-    
+
     # define the location of a publish area
     shot_publish_area_nuke: '@shot_root/publish/nuke'
 
@@ -295,7 +302,7 @@ paths:
 
     # define the location of a work area
     shot_work_area_softimage: '@shot_root/work/softimage'
-    
+
     # define the location of a publish area
     shot_publish_area_softimage: '@shot_root/publish/softimage'
 
@@ -310,14 +317,14 @@ paths:
 
 
     ##########################################################################################
-    # Asset pipeline 
-    
+    # Asset pipeline
+
     #
     # Alembic caches
     #
-    
+
     asset_alembic_cache: '@asset_root/publish/caches/{name}.v{version}.abc'
-    
+
     #
     # Photoshop
     #
@@ -332,21 +339,21 @@ paths:
     # The location of published files
     asset_publish_area_photoshop: '@asset_root/publish/photoshop'
     photoshop_asset_publish: '@asset_root/publish/photoshop/{name}.v{version}.psd'
-    
+
     #
     # Mari
     #
-    
+
     asset_mari_texture_tif: '@asset_root/publish/mari/{name}_{channel}[_{layer}].v{version}.{UDIM}.tif'
-    
-    
+
+
     #
     # Maya
     #
-    
+
     # define the location of a work area
     asset_work_area_maya: '@asset_root/work/maya'
-    
+
     # define the location of a publish area
     asset_publish_area_maya: '@asset_root/publish/maya'
 
@@ -389,13 +396,13 @@ paths:
     #
     # 3dsmax
     #
-    
+
     # define the location of a work area
     asset_work_area_max: '@asset_root/work/3dsmax'
-    
+
     # define the location of a publish area
     asset_publish_area_max: '@asset_root/publish/3dsmax'
-    
+
     # The location of WIP files
     max_asset_work: '@asset_root/work/3dsmax/{name}.v{version}.max'
 
@@ -430,7 +437,7 @@ paths:
 
     # define the location of a work area
     asset_work_area_nuke: '@asset_root/work/nuke'
-    
+
     # define the location of a publish area
     asset_publish_area_nuke: '@asset_root/publish'
 
@@ -457,7 +464,7 @@ paths:
 
     # define the location of a work area
     asset_work_area_softimage: '@asset_root/work/softimage'
-    
+
     # define the location of a publish area
     asset_publish_area_softimage: '@asset_root/publish/softimage'
 
@@ -473,14 +480,14 @@ paths:
 
 #
 # The strings section is similar to the paths section - but rather than defining paths
-# on disk, it contains a list of strings. Strings are typically used when you want to be 
+# on disk, it contains a list of strings. Strings are typically used when you want to be
 # able to configure the way data is written to shotgun - it may be the name field for a
 # review version or the formatting of a publish.
 #
 
 strings:
 
-    # when a review version in shotgun is created inside of nuke, this is the 
+    # when a review version in shotgun is created inside of nuke, this is the
     # name that is being given to it (the code field)
     nuke_shot_version_name: "{Shot}_{name}_{output}_v{version}.{iteration}"
     nuke_quick_shot_version_name: "{Shot}_{name}_quick_{iteration}"
@@ -493,4 +500,3 @@ strings:
 
     # define how new Mari projects should be named
     mari_asset_project_name: "{mari_project_name} - Asset {asset_name}, {task_name}"
-    
