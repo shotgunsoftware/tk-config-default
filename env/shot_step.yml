@@ -107,6 +107,7 @@ engines:
         template_work_area: shot_work_area_max
     debug_logging: false
     location: {name: tk-3dsmax, type: app_store, version: v0.3.2}
+
   tk-3dsmaxplus:
     apps:
       tk-multi-about: '@about'
@@ -197,6 +198,7 @@ engines:
     compatibility_dialog_min_version: 2016
     debug_logging: false
     location: {name: tk-3dsmaxplus, type: app_store, version: v0.1.4}
+
   tk-houdini:
     apps:
       tk-multi-about: '@about'
