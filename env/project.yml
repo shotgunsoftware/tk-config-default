@@ -75,6 +75,8 @@ engines:
         template_plate_path: hiero_plate_path
         template_render_path: hiero_render_path
         template_version: hiero_version
+        hook_get_extra_publish_data: default
+        audio_published_file_type: Hiero Audio
       tk-hiero-openinshotgun:
         location: {name: tk-hiero-openinshotgun, type: app_store, version: v0.1.0}
       tk-multi-about: '@about'
