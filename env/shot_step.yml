@@ -197,7 +197,7 @@ engines:
         template_work_area: shot_work_area_max
     compatibility_dialog_min_version: 2016
     debug_logging: false
-    location: {name: tk-3dsmaxplus, type: app_store, version: v0.1.4}
+    location: {name: tk-3dsmaxplus, type: app_store, version: v0.1.5}
 
   tk-houdini:
     apps:
