@@ -121,7 +121,7 @@ keys:
         type: str
     version_number:
         type: int
-        format_spec: "04"
+        format_spec: "02"
     sg_version_type:
         type: str
         filter_by: alphanumeric
@@ -132,6 +132,11 @@ keys:
         type: str
         shotgun_entity_type: HumanUser
         shotgun_field_name: login
+    wb_eye:
+        type: str
+        choices: ['l', 'left', 'r', 'right', 's', 'stereo', '%v']
+        default: %v
+        abstract: true
 
 
 
@@ -530,6 +535,8 @@ strings:
     delivery_relative_path: 'From{dir}{YYYY}_{MM}_{DD}{dir}{title}'
     
     # define how version names should be parsed in tk-multi-createdelivery
+    stereo_shot_version_name: "{Shot}_{sg_version_type}_v{version_number}_{wb_eye}"
+    stereo_asset_version_name: "{Asset}_{sg_version_type}_v{version_number}_{wb_eye}"
     shot_version_name: "{Shot}_{sg_version_type}_v{version_number}"
     asset_version_name: "{Asset}_{sg_version_type}_v{version_number}"
     basic_frames_template: "{code}.{SEQ}.{file_type}"
