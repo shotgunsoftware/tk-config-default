@@ -114,18 +114,17 @@ keys:
 # Apps use these paths as part of their configuration to define where on disk
 # different files should go.
 #
-# The preferred format is:
-#       <template_name>:
-#           definition: '<template_definition>'
-#           root_name: '<local storage root name>'
+# In this default configuration, all of the root_name keys will be set to 'primary'. 
+# This is because the default configuration stores all its production data in a single 
+# tree and hence uses a single root folder on disk. If you wanted to extend the 
+# configuration to span multiple root points, for example because you want to store 
+# renders on a different server, you could define an additional root in Shotgun, and 
+# then switch any relevant templates to point to that one instead.
 #
-# This is true even for configurations that only use a single storage root as the
-# explicit nature of it makes it easier to read and allows for easier migration 
-# to a multi-root configuration in the future.
 
 paths:
 
-    # Common  path definitions to use as aliases in order to avoid repetitive and verbose
+    # Common  path definitions to use as shorthand in order to avoid repetitive and verbose
     # templates. This also makes it easy to change any of the common root paths and have the
     # changes apply to all templates that use them. 
     #
