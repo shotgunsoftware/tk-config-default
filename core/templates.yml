@@ -137,7 +137,11 @@ keys:
         choices: ['l', 'left', 'r', 'right', 's', 'stereo', '%v']
         default: %v
         abstract: true
-
+    frame_number:
+        type: str
+        filter_by: "^%*\d+d*$"
+    
+    
 
 
 #
@@ -539,6 +543,6 @@ strings:
     stereo_asset_version_name: "{Asset}_{sg_version_type}_v{version_number}_{wb_eye}"
     shot_version_name: "{Shot}_{sg_version_type}_v{version_number}"
     asset_version_name: "{Asset}_{sg_version_type}_v{version_number}"
-    basic_frames_template: "{code}.{SEQ}.{file_type}"
+    basic_frames_template: "{code}.{frame_number}.{file_type}"
     basic_movie_template: "{code}.{file_type}"
     
