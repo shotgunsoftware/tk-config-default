@@ -332,26 +332,36 @@ engines:
         location: {name: tk-multi-snapshot, type: app_store, version: v0.4.0}
         template_snapshot: maya_shot_snapshot
         template_work: maya_shot_work
-      tk-multi-workfiles:
+      tk-multi-workfiles2:
         allow_task_creation: true
+        custom_actions_hook: '{self}/custom_actions.py'
+        entities:
+        - caption: Assets
+          entity_type: Task
+          filters:
+          - [entity, type_is, Asset]
+          hierarchy: [entity.Asset.sg_asset_type, entity, step, content]
+        - caption: Shots
+          entity_type: Task
+          filters:
+          - [entity, type_is, Shot]
+          hierarchy: [entity.Shot.sg_sequence, entity, step, content]
         file_extensions: []
-        hook_copy_file: default
-        hook_filter_publishes: default
-        hook_filter_work_files: default
-        hook_scene_operation: default
-        launch_at_startup: true
-        launch_change_work_area_at_startup: false
-        location: {name: tk-multi-workfiles, type: app_store, version: v0.6.0}
+        hook_copy_file: '{self}/copy_file.py'
+        hook_filter_publishes: '{self}/filter_publishes.py'
+        hook_filter_work_files: '{self}/filter_work_files.py'
+        hook_scene_operation: '{self}/scene_operation_tk-maya.py'
+        launch_at_startup: false
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
-        sg_entity_type_extra_display_fields: {}
-        sg_entity_type_filters: {}
-        sg_entity_types: [Shot, Asset]
-        task_extra_display_fields: []
+        show_my_tasks: true
         template_publish: maya_shot_publish
         template_publish_area: shot_publish_area_maya
         template_work: maya_shot_work
         template_work_area: shot_work_area_maya
+        version_compare_ignore_fields: []
     compatibility_dialog_min_version: 2015
     debug_logging: false
     location: {name: tk-maya, type: app_store, version: v0.4.2}
