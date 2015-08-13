@@ -129,8 +129,8 @@ engines:
           - [project, is, '{context.project}']
           hierarchy: [sg_asset_type, code]
           publish_filters: []
-        - caption: Asset
-          entity_type: Asset
+        - caption: Shots
+          entity_type: Shot
           filters:
           - [project, is, '{context.project}']
           hierarchy: [sg_sequence, code]
