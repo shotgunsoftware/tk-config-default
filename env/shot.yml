@@ -29,67 +29,67 @@ engines:
 
   tk-3dsmax:
     apps:
-      tk-multi-workfiles: '@workfiles'
+      tk-multi-workfiles2: '@workfiles2'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     debug_logging: false
-    location: {name: tk-3dsmax, type: app_store, version: v0.3.2}
+    location: {name: tk-3dsmax, type: app_store, version: v0.3.5}
 
   tk-3dsmaxplus:
     apps:
-      tk-multi-workfiles: '@workfiles'
+      tk-multi-workfiles2: '@workfiles2'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     compatibility_dialog_min_version: 2016
     debug_logging: false
     menu_favourites: []
-    location: {name: tk-3dsmaxplus, type: app_store, version: v0.1.5}
+    location: {name: tk-3dsmaxplus, type: app_store, version: v0.1.8}
 
   tk-maya:
     apps:
-      tk-multi-workfiles: '@workfiles-launch-at-startup'
+      tk-multi-workfiles2: '@workfiles2-launch-at-startup'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     compatibility_dialog_min_version: 2015
     debug_logging: false
-    location: {name: tk-maya, type: app_store, version: v0.4.2}
+    location: {name: tk-maya, type: app_store, version: v0.5.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project: null
     use_sgtk_as_menu_name: false
 
   tk-motionbuilder:
     apps:
-      tk-multi-workfiles: '@workfiles'
+      tk-multi-workfiles2: '@workfiles2'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     debug_logging: false
     location: {name: tk-motionbuilder, type: app_store, version: v0.3.0}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles, name: File Open...}
     use_sgtk_as_menu_name: false
 
   tk-nuke:
     apps:
-      tk-multi-workfiles: '@workfiles'
+      tk-multi-workfiles2: '@workfiles2'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     compatibility_dialog_min_version: 10
     debug_logging: false
     favourite_directories: []
-    location: {name: tk-nuke, type: app_store, version: v0.2.24}
+    location: {name: tk-nuke, type: app_store, version: v0.3.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles, name: File Open...}
     project_favourite_name: Shotgun Current Project
     use_sgtk_as_menu_name: false
 
   tk-photoshop:
     apps:
-      tk-multi-workfiles: '@workfiles'
+      tk-multi-workfiles2: '@workfiles2'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     debug_logging: false
-    location: {name: tk-photoshop, type: app_store, version: v0.2.0}
+    location: {name: tk-photoshop, type: app_store, version: v0.3.1}
 
   tk-shell:
     apps:
@@ -100,17 +100,17 @@ engines:
       tk-multi-launchnuke: '@launch_nuke'
       tk-multi-launchphotoshop: '@launch_photoshop'
       tk-multi-launchsoftimage: '@launch_softimage'
-    location: {name: tk-shell, type: app_store, version: v0.4.0}
+    location: {name: tk-shell, type: app_store, version: v0.4.1}
 
   tk-softimage:
     apps:
-      tk-multi-workfiles: '@workfiles'
+      tk-multi-workfiles2: '@workfiles2'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
     debug_logging: false
-    location: {name: tk-softimage, type: app_store, version: v0.3.0}
+    location: {name: tk-softimage, type: app_store, version: v0.3.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles, name: File Open...}
     template_project: null
 
 frameworks:

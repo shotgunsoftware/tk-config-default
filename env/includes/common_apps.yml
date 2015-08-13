@@ -59,11 +59,77 @@ workfiles-launch-at-startup:
   template_work: null
   template_work_area: null
 
+workfiles2:
+  allow_task_creation: true
+  custom_actions_hook: '{self}/custom_actions.py'
+  entities:
+  - caption: Assets
+    entity_type: Task
+    filters:
+    - [entity, type_is, Asset]
+    hierarchy: [entity.Asset.sg_asset_type, entity, step, content]
+  - caption: Shots
+    entity_type: Task
+    filters:
+    - [entity, type_is, Shot]
+    hierarchy: [entity.Shot.sg_sequence, entity, step, content]
+  file_extensions: []
+  hook_copy_file: default
+  hook_filter_publishes: default
+  hook_filter_work_files: default
+  hook_scene_operation: default
+  launch_at_startup: false
+  location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+  my_tasks_extra_display_fields: []
+  saveas_default_name: scene
+  saveas_prefer_version_up: false
+  show_my_tasks: true
+  template_publish: null
+  template_publish_area: null
+  template_work: null
+  template_work_area: null
+  version_compare_ignore_fields: []
+
+workfiles2-launch-at-startup:
+  allow_task_creation: true
+  custom_actions_hook: '{self}/custom_actions.py'
+  entities:
+  - caption: Assets
+    entity_type: Task
+    filters:
+    - [entity, type_is, Asset]
+    hierarchy: [entity.Asset.sg_asset_type, entity, step, content]
+  - caption: Shots
+    entity_type: Task
+    filters:
+    - [entity, type_is, Shot]
+    hierarchy: [entity.Shot.sg_sequence, entity, step, content]
+  file_extensions: []
+  hook_copy_file: default
+  hook_filter_publishes: default
+  hook_filter_work_files: default
+  hook_scene_operation: default
+  launch_at_startup: true
+  location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+  my_tasks_extra_display_fields: []
+  saveas_default_name: scene
+  saveas_prefer_version_up: false
+  show_my_tasks: true
+  template_publish: null
+  template_publish_area: null
+  template_work: null
+  template_work_area: null
+  version_compare_ignore_fields: []
+
 frameworks:
   tk-framework-qtwidgets_v1.x.x:
     location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.1}
+  tk-framework-qtwidgets_v2.x.x:
+    location: {name: tk-framework-qtwidgets, type: app_store, version: v2.0.6}
   tk-framework-shotgunutils_v2.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v2.0.5}
+    location: {name: tk-framework-shotgunutils, type: app_store, version: v2.4.1}
+  tk-framework-shotgunutils_v3.x.x:
+    location: {name: tk-framework-shotgunutils, type: app_store, version: v3.0.3}
   tk-framework-widget_v0.1.18:
     location: {name: tk-framework-widget, type: app_store, version: v0.1.18}
   tk-framework-widget_v0.1.20:
