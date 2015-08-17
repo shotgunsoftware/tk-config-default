@@ -122,27 +122,21 @@ engines:
         allow_task_creation: true
         custom_actions_hook: '{self}/custom_actions.py'
         entities:
-        - caption: Assets
-          entity_type: Task
-          filters:
-          - [entity, type_is, Asset]
-          hierarchy: [entity.Asset.sg_asset_type, entity, step, content]
-        - caption: Shots
-          entity_type: Task
-          filters:
-          - [entity, type_is, Shot]
-          hierarchy: [entity.Shot.sg_sequence, entity, step, content]
+        - caption: Projects
+          entity_type: Project
+          filters: {}
+          hierarchy: [name]
         file_extensions: []
-        hook_copy_file: default
-        hook_filter_publishes: default
-        hook_filter_work_files: default
-        hook_scene_operation: default
+        hook_copy_file: '{self}/copy_file.py'
+        hook_filter_publishes: '{self}/filter_publishes.py'
+        hook_filter_work_files: '{self}/filter_work_files.py'
+        hook_scene_operation: '{self}/scene_operation_tk-hiero.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
-        show_my_tasks: true
+        show_my_tasks: false
         template_publish: hiero_project_publish
         template_publish_area: hiero_project_publish_area
         template_work: hiero_project_work
@@ -203,7 +197,7 @@ engines:
       tk-multi-workfiles2: '@workfiles2-launch-at-startup'
     compatibility_dialog_min_version: 2015
     debug_logging: false
-    location: {name: tk-maya, type: app_store, version: v0.5.1}
+    location: {name: tk-maya, type: app_store, version: v0.5.2}
     menu_favourites:
     - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project: null

@@ -105,7 +105,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-3dsmax.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -204,7 +204,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-3dsmaxplus.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -275,7 +275,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-houdini.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -381,7 +381,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-maya.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -393,7 +393,7 @@ engines:
         version_compare_ignore_fields: []
     compatibility_dialog_min_version: 2015
     debug_logging: false
-    location: {name: tk-maya, type: app_store, version: v0.5.1}
+    location: {name: tk-maya, type: app_store, version: v0.5.2}
     menu_favourites:
     - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
@@ -490,7 +490,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-motionbuilder.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -614,7 +614,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-nuke.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -755,7 +755,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-photoshop.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false
@@ -837,7 +837,7 @@ engines:
         hook_filter_work_files: '{self}/filter_work_files.py'
         hook_scene_operation: '{self}/scene_operation_tk-softimage.py'
         launch_at_startup: false
-        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.8}
+        location: {name: tk-multi-workfiles2, type: app_store, version: v0.7.9}
         my_tasks_extra_display_fields: []
         saveas_default_name: scene
         saveas_prefer_version_up: false

@@ -52,7 +52,7 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
     compatibility_dialog_min_version: 2015
     debug_logging: false
-    location: {name: tk-maya, type: app_store, version: v0.5.1}
+    location: {name: tk-maya, type: app_store, version: v0.5.2}
     menu_favourites:
     - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project: null
