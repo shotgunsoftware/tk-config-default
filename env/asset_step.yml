@@ -493,7 +493,7 @@ engines:
         template_work: maya_asset_work
         template_work_area: asset_work_area_maya
         version_compare_ignore_fields: []
-    compatibility_dialog_min_version: 2015
+    compatibility_dialog_min_version: 2016
     debug_logging: false
     location: {name: tk-maya, type: app_store, version: v0.5.2}
     menu_favourites:

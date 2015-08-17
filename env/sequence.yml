@@ -50,7 +50,7 @@ engines:
       tk-multi-workfiles2: '@workfiles2-launch-at-startup'
       tk-multi-about: '@about'
       tk-multi-screeningroom: '@launch_screeningroom'
-    compatibility_dialog_min_version: 2015
+    compatibility_dialog_min_version: 2016
     debug_logging: false
     location: {name: tk-maya, type: app_store, version: v0.5.2}
     menu_favourites:
