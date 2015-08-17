@@ -280,9 +280,9 @@ engines:
     debug_logging: false
     location: {name: tk-houdini, type: app_store, version: v0.2.2}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     
   tk-mari:
@@ -497,9 +497,9 @@ engines:
     debug_logging: false
     location: {name: tk-maya, type: app_store, version: v0.5.2}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     template_project: asset_work_area_maya
     use_sgtk_as_menu_name: false
@@ -601,9 +601,9 @@ engines:
     debug_logging: false
     location: {name: tk-motionbuilder, type: app_store, version: v0.3.0}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     use_sgtk_as_menu_name: false
     
@@ -745,9 +745,9 @@ engines:
     favourite_directories: []
     location: {name: tk-nuke, type: app_store, version: v0.3.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     project_favourite_name: Shotgun Current Project
     use_sgtk_as_menu_name: false
@@ -923,9 +923,9 @@ engines:
     debug_logging: false
     location: {name: tk-softimage, type: app_store, version: v0.3.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
-    - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     - {app_instance: tk-multi-publish, name: Publish...}
     template_project: asset_work_area_softimage
     

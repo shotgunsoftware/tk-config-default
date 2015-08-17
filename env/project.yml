@@ -29,6 +29,7 @@ engines:
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
     location: {name: tk-3dsmax, type: app_store, version: v0.3.5}
+
   tk-3dsmaxplus:
     apps:
       tk-multi-about: '@about'

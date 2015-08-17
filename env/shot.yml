@@ -66,7 +66,7 @@ engines:
     debug_logging: false
     location: {name: tk-motionbuilder, type: app_store, version: v0.3.0}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: File Open...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     use_sgtk_as_menu_name: false
 
   tk-nuke:
@@ -79,7 +79,7 @@ engines:
     favourite_directories: []
     location: {name: tk-nuke, type: app_store, version: v0.3.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: File Open...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     project_favourite_name: Shotgun Current Project
     use_sgtk_as_menu_name: false
 
@@ -110,7 +110,7 @@ engines:
     debug_logging: false
     location: {name: tk-softimage, type: app_store, version: v0.3.1}
     menu_favourites:
-    - {app_instance: tk-multi-workfiles, name: File Open...}
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
     template_project: null
 
 frameworks:
