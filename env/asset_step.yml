@@ -709,7 +709,7 @@ engines:
     compatibility_dialog_min_version: 10
     debug_logging: false
     favourite_directories: []
-    location: {name: tk-nuke, type: app_store, version: v0.2.24}
+    location: {name: tk-nuke, type: app_store, version: v0.3.1}
     menu_favourites:
     - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
     - {app_instance: tk-multi-snapshot, name: Snapshot...}
