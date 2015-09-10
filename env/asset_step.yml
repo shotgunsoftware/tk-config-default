@@ -363,7 +363,21 @@ engines:
       tk-multi-about: '@about'
       tk-multi-shotgunpanel:
         location: {name: tk-multi-shotgunpanel, type: app_store, version: v0.8.2}
-        shotgun_fields_hook: '{self}/shotgun_fields.py'      
+        shotgun_fields_hook: '{self}/shotgun_fields.py'
+        actions_hook: '{self}/tk-maya_actions.py'
+        action_mappings:
+            Task:
+                - { actions: [assign_task], filters: {} }
+            Version:
+                - { actions: [play_in_rv], filters: {} }
+            PublishedFile:
+                - { actions: [reference, import], filters: { published_file_type: Maya Scene} }
+                - { actions: [texture_node], filters: { published_file_type: Rendered Image} }
+                - { actions: [texture_node], filters: { published_file_type: Photoshop Image} }
+                - { actions: [udim_texture_node], filters: { published_file_type: UDIM Image} }
+        
+        
+              
       tk-multi-loader2:
         action_mappings:
           Maya Scene: [reference, import]
@@ -562,7 +576,16 @@ engines:
       tk-multi-about: '@about'
       tk-multi-shotgunpanel:
         location: {name: tk-multi-shotgunpanel, type: app_store, version: v0.8.2}
-        shotgun_fields_hook: '{self}/shotgun_fields.py'      
+        shotgun_fields_hook: '{self}/shotgun_fields.py'
+        actions_hook: '{self}/tk-nuke_actions.py'
+        action_mappings:
+            Task:
+                - { actions: [assign_task], filters: {} }
+            Version:
+                - { actions: [play_in_rv], filters: {} }
+            PublishedFile:
+                - { actions: [read_node], filters: { published_file_type: Rendered Image} }
+                - { actions: [script_import], filters: { published_file_type: Nuke Script} }        
       tk-multi-loader2:
         action_mappings:
           Nuke Script: [script_import]
