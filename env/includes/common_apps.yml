@@ -13,15 +13,10 @@
 #
 
 about:
-  location: {name: tk-multi-about, type: app_store, version: v0.1.20}
-
-frameworks:
-  tk-framework-qtwidgets_v1.x.x:
-    location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.3}
-  tk-framework-shotgunutils_v2.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v2.4.2}
-  tk-framework-widget_v0.2.x:
-    location: {name: tk-framework-widget, type: app_store, version: v0.2.2}
+  location:
+    name: tk-multi-about
+    type: app_store
+    version: v0.1.20
 
 workfiles:
   allow_task_creation: true
@@ -32,7 +27,10 @@ workfiles:
   hook_scene_operation: default
   launch_at_startup: false
   launch_change_work_area_at_startup: false
-  location: {name: tk-multi-workfiles, type: app_store, version: v0.6.15}
+  location:
+    name: tk-multi-workfiles
+    type: app_store
+    version: v0.6.15
   saveas_default_name: scene
   saveas_prefer_version_up: false
   sg_entity_type_extra_display_fields: {}
@@ -46,6 +44,7 @@ workfiles:
   template_work_area: null
   version_compare_ignore_fields: []
 
+
 workfiles-launch-at-startup:
   allow_task_creation: true
   file_extensions: []
@@ -55,7 +54,10 @@ workfiles-launch-at-startup:
   hook_scene_operation: default
   launch_at_startup: true
   launch_change_work_area_at_startup: false
-  location: {name: tk-multi-workfiles, type: app_store, version: v0.6.15}
+  location:
+    name: tk-multi-workfiles
+    type: app_store
+    version: v0.6.15
   saveas_default_name: scene
   saveas_prefer_version_up: false
   sg_entity_type_extra_display_fields: {}
@@ -68,3 +70,22 @@ workfiles-launch-at-startup:
   template_work: null
   template_work_area: null
   version_compare_ignore_fields: []
+
+  
+frameworks:
+  tk-framework-qtwidgets_v1.x.x:
+    location:
+      name: tk-framework-qtwidgets
+      type: app_store
+      version: v1.0.3
+  tk-framework-shotgunutils_v2.x.x:
+    location:
+      name: tk-framework-shotgunutils
+      type: app_store
+      version: v2.4.2
+  tk-framework-widget_v0.2.x:
+    location:
+      name: tk-framework-widget
+      type: app_store
+      version: v0.2.2
+  
