@@ -44,9 +44,9 @@ motionbuilder_windows: 'C:\Program Files\Autodesk\MotionBuilder 2014\bin\x64\mot
 
 
 #
-# 3dsmax 2012
+# 3dsmax 2015
 #
-3dsmax_windows: 'C:\Program Files\Autodesk\3ds Max 2012\3dsmax.exe'
+3dsmax_windows: 'C:\Program Files\Autodesk\3ds Max 2015\3dsmax.exe'
 
 
 #
@@ -78,12 +78,13 @@ hiero_mac: /Applications/Hiero1.8v2/Hiero1.8v2.app
 hiero_win: C:\Program Files\The Foundry\Hiero1.8v2\hiero.exe
 hiero_linux: /usr/local/Hiero1.8v2/bin/Hiero1.8v2
 
+
 #
 # Softimage
 #
-
 softimage_windows: C:\Program Files\Autodesk\Softimage 2013\Application\bin\XSI.bat
 softimage_linux: XSI
+
 
 #
 # Tweak RV
