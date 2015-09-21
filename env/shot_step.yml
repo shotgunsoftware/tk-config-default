@@ -998,8 +998,3 @@ frameworks:
       name: tk-framework-softimageqt
       type: app_store
       version: v1.0.1
-  tk-framework-widget_v0.1.22:
-    location:
-      name: tk-framework-widget
-      type: app_store
-      version: v0.1.22
