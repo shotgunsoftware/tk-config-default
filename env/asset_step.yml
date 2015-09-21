@@ -646,14 +646,6 @@ engines:
         secondary_outputs: []
         template_work: mobu_asset_work
       tk-multi-screeningroom: '@launch_screeningroom'
-      tk-multi-setcontext:
-        enable_create_tasks: true
-        launch_at_startup: false
-        location:
-          name: tk-multi-setcontext
-          type: app_store
-          version: v0.2.9
-        sg_entity_types: [Shot, Asset]
       tk-multi-snapshot:
         hook_copy_file: default
         hook_scene_operation: default
