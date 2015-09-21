@@ -23,6 +23,11 @@ includes:
 # define all the items that should appear in this environment
 
 engines:
+
+  #
+  # -------------------------------------------------
+  # 3dsmax
+  # -------------------------------------------------
   tk-3dsmax:
     apps:
       tk-multi-about: '@about'
@@ -121,6 +126,11 @@ engines:
       name: tk-3dsmax
       type: app_store
       version: v0.3.5
+
+  #
+  # -------------------------------------------------
+  # 3dsmax Plus
+  # -------------------------------------------------
   tk-3dsmaxplus:
     apps:
       tk-multi-about: '@about'
@@ -221,6 +231,11 @@ engines:
       type: app_store
       version: v0.1.8
     menu_favourites: []
+
+  #
+  # -------------------------------------------------
+  # Houdini
+  # -------------------------------------------------
   tk-houdini:
     apps:
       tk-multi-about: '@about'
@@ -295,6 +310,10 @@ engines:
     - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
     - {app_instance: tk-multi-publish, name: Publish...}
 
+  #
+  # -------------------------------------------------
+  # Mari
+  # -------------------------------------------------
   tk-mari:
     apps:
       tk-mari-projectmanager:
@@ -415,6 +434,11 @@ engines:
       name: tk-mari
       type: app_store
       version: v1.0.2
+
+  #
+  # -------------------------------------------------
+  # Maya
+  # -------------------------------------------------      
   tk-maya:
     apps:
       tk-multi-about: '@about'
@@ -560,6 +584,10 @@ engines:
     - {app_instance: tk-multi-publish, name: Publish...}
     template_project: asset_work_area_maya
     use_sgtk_as_menu_name: false
+  #
+  # -------------------------------------------------
+  # Motionbuilder
+  # -------------------------------------------------  
   tk-motionbuilder:
     apps:
       tk-multi-about: '@about'
@@ -672,6 +700,10 @@ engines:
     - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
     - {app_instance: tk-multi-publish, name: Publish...}
     use_sgtk_as_menu_name: false
+  #
+  # -------------------------------------------------
+  # Nuke
+  # -------------------------------------------------
   tk-nuke:
     apps:
       tk-multi-about: '@about'
@@ -862,6 +894,10 @@ engines:
     - {app_instance: tk-multi-publish, name: Publish...}
     project_favourite_name: Shotgun Current Project
     use_sgtk_as_menu_name: false
+  #
+  # -------------------------------------------------
+  # Photoshop
+  # -------------------------------------------------
   tk-photoshop:
     apps:
       tk-multi-about: '@about'
@@ -961,6 +997,10 @@ engines:
       name: tk-photoshop
       type: app_store
       version: v0.3.2
+  #
+  # -------------------------------------------------
+  # Shell Engine (tank command)
+  # -------------------------------------------------
   tk-shell:
     apps:
       tk-multi-launch3dsmax: '@launch_3dsmax'
@@ -976,6 +1016,10 @@ engines:
       name: tk-shell
       type: app_store
       version: v0.4.1
+  #
+  # -------------------------------------------------
+  # Softimage
+  # -------------------------------------------------
   tk-softimage:
     apps:
       tk-multi-about: '@about'
