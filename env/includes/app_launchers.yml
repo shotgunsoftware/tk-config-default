@@ -42,7 +42,7 @@ launch_3dsmax:
     name: tk-multi-launchapp
   mac_args: ''
   mac_path: ''
-  menu_name: Launch 3dsmax
+  menu_name: Launch 3dsmax # note: desktop app means we cannot have spaces in app name
   versions: []
   windows_args: ''
   windows_path: '@3dsmax_windows'
