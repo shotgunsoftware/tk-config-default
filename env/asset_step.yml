@@ -882,16 +882,9 @@ engines:
     template_project: asset_work_area_softimage
 
 frameworks:
-  tk-framework-shotgunutils_v1.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v1.0.10}
   tk-framework-softimageqt_v1.0.1:
     location: {name: tk-framework-softimageqt, type: app_store, version: v1.0.1}
-  tk-framework-widget_v0.1.16:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.16}
-  tk-framework-widget_v0.1.18:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.18}
-  tk-framework-widget_v0.1.19:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.19}
   tk-framework-widget_v0.1.22:
+    # used by the set context app
     location: {name: tk-framework-widget, type: app_store, version: v0.1.22}
 

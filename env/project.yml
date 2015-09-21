@@ -259,9 +259,3 @@ frameworks:
     location: {name: tk-framework-login, type: app_store, version: v1.2.1}
   tk-framework-softimageqt_v1.0.1:
     location: {name: tk-framework-softimageqt, type: app_store, version: v1.0.1}
-  tk-framework-widget_v0.1.16:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.16}
-  tk-framework-widget_v0.1.18:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.18}
-  tk-framework-widget_v0.1.19:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.19}

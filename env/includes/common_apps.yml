@@ -20,14 +20,6 @@ frameworks:
     location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.3}
   tk-framework-shotgunutils_v2.x.x:
     location: {name: tk-framework-shotgunutils, type: app_store, version: v2.4.2}
-  tk-framework-widget_v0.1.18:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.18}
-  tk-framework-widget_v0.1.20:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.20}
-  tk-framework-widget_v0.1.23:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.23}
-  tk-framework-widget_v0.1.24:
-    location: {name: tk-framework-widget, type: app_store, version: v0.1.24}
   tk-framework-widget_v0.2.x:
     location: {name: tk-framework-widget, type: app_store, version: v0.2.2}
 
