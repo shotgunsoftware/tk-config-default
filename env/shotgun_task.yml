@@ -47,4 +47,14 @@ engines:
       name: tk-shotgun
       type: app_store
       version: v0.5.1
+
+#
+###############################################################################
+#
+# Framework includes. 
+#
+# Frameworks are libraries that are shared between apps and that contain
+# common functionality for building UIs and communicating with Shotgun.
+# Frameworks are automatically installed when apps are installed and udpated.
+#  
 frameworks: null

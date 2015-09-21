@@ -8,19 +8,25 @@
 # agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
 # not expressly granted therein are reserved by Shotgun Software Inc.
 #
-#
+
 #################################################################################################
 # include paths to all our applications
 includes:
 # first include the configuration's global settings for application paths
 - ./paths.yml
+
 # now include overrides - these will be loaded if they are found
 - sequences/{Sequence}/{Shot}/sgtk_overrides.yml
 - assets/{sg_asset_type}/{Asset}/sgtk_overrides.yml
-#
+
+
 ################################################################################################
 # app definitions for all the Sgtk app launchers.
+
 #
+# -------------------------------------------------
+# 3dsmax
+# -------------------------------------------------
 launch_3dsmax:
   defer_keyword: ''
   engine: tk-3dsmaxplus
@@ -31,15 +37,19 @@ launch_3dsmax:
   linux_args: ''
   linux_path: ''
   location:
-    name: tk-multi-launchapp
-    type: app_store
     version: v0.6.6
+    type: app_store
+    name: tk-multi-launchapp
   mac_args: ''
   mac_path: ''
   menu_name: Launch 3dsmax
   versions: []
   windows_args: ''
   windows_path: '@3dsmax_windows'
+#
+# -------------------------------------------------
+# Hiero
+# -------------------------------------------------
 launch_hiero:
   defer_keyword: ''
   engine: tk-hiero
@@ -59,6 +69,10 @@ launch_hiero:
   versions: []
   windows_args: ''
   windows_path: '@hiero_win'
+#
+# -------------------------------------------------
+# Houdini
+# -------------------------------------------------
 launch_houdini:
   defer_keyword: ''
   engine: tk-houdini
@@ -78,6 +92,10 @@ launch_houdini:
   versions: []
   windows_args: ''
   windows_path: '@houdini_windows'
+#
+# -------------------------------------------------
+# Mari
+# -------------------------------------------------
 launch_mari:
   defer_keyword: ''
   engine: tk-mari
@@ -97,6 +115,10 @@ launch_mari:
   versions: []
   windows_args: ''
   windows_path: '@mari_windows'
+#
+# -------------------------------------------------
+# Maya
+# -------------------------------------------------
 launch_maya:
   defer_keyword: ''
   engine: tk-maya
@@ -116,6 +138,10 @@ launch_maya:
   versions: []
   windows_args: ''
   windows_path: '@maya_windows'
+#
+# -------------------------------------------------
+# Motionbuilder
+# -------------------------------------------------
 launch_motionbuilder:
   defer_keyword: ''
   engine: tk-motionbuilder
@@ -135,6 +161,10 @@ launch_motionbuilder:
   versions: []
   windows_args: ''
   windows_path: '@motionbuilder_windows'
+#
+# -------------------------------------------------
+# Nuke
+# -------------------------------------------------
 launch_nuke:
   defer_keyword: ''
   engine: tk-nuke
@@ -154,6 +184,10 @@ launch_nuke:
   versions: []
   windows_args: ''
   windows_path: '@nuke_windows'
+#
+# -------------------------------------------------
+# Photoshop
+# -------------------------------------------------
 launch_photoshop:
   defer_keyword: ''
   engine: tk-photoshop
@@ -173,6 +207,10 @@ launch_photoshop:
   versions: []
   windows_args: ''
   windows_path: '@photoshop_win'
+#
+# -------------------------------------------------
+# Screening Room
+# -------------------------------------------------
 launch_screeningroom:
   enable_rv_mode: true
   enable_web_mode: true
@@ -184,7 +222,9 @@ launch_screeningroom:
   rv_path_mac: '@rv_mac'
   rv_path_windows: '@rv_win'
 #
-#
+# -------------------------------------------------
+# Softimage
+# -------------------------------------------------
 launch_softimage:
   defer_keyword: ''
   engine: tk-softimage
