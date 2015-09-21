@@ -18,12 +18,13 @@ description: Apps and engines loaded when an Asset is loaded. Since std VFX conf
   lets you choose a task to work on and load associated content into an application.
 
 #################################################################################################
-# include common definitions for all the launchers that are used to start maya, nuke etc.
-
+# include common files
 includes:
-- ./includes/app_launchers.yml
-- ./includes/common_apps.yml
 
+# launchers for launching DCCs such as Maya, Nuke etc.
+- ./includes/app_launchers.yml
+# common app configurations that are reused across environments
+- ./includes/common_apps.yml
 
 #################################################################################################
 # define all the items that should appear in this environment
