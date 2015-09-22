@@ -1,11 +1,11 @@
 # Copyright (c) 2015 Shotgun Software Inc.
-# 
+#
 # CONFIDENTIAL AND PROPRIETARY
-# 
-# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit 
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
 # Source Code License included in this distribution package. See LICENSE.
-# By accessing, using, copying or modifying this work you indicate your 
-# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
 # not expressly granted therein are reserved by Shotgun Software Inc.
 #
 
@@ -250,12 +250,12 @@ engines:
       type: app_store
       version: v0.1.8
     menu_favourites: []
-    
-    
+
+
   #
   # -------------------------------------------------
   # houdini
-  # -------------------------------------------------    
+  # -------------------------------------------------
   tk-houdini:
     apps:
       tk-multi-about: '@about'
@@ -783,7 +783,7 @@ engines:
           proxy_render_template: null
           publish_template: nuke_shot_render_pub_stereo
           render_template: nuke_shot_render_stereo
-          settings: 
+          settings:
             datatype: 32 bit float
           tank_type: Rendered Image
           tile_color: []
@@ -945,7 +945,7 @@ engines:
       name: tk-shell
       type: app_store
       version: v0.4.1
-      
+
   #
   # -------------------------------------------------
   # Softimage
@@ -1034,12 +1034,12 @@ engines:
 #
 ###############################################################################
 #
-# Framework includes. 
+# Framework includes.
 #
 # Frameworks are libraries that are shared between apps and that contain
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
-#  
+#
 frameworks:
   tk-framework-softimageqt_v1.0.1:
     location:

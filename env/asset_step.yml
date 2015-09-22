@@ -441,7 +441,7 @@ engines:
   #
   # -------------------------------------------------
   # Maya
-  # -------------------------------------------------      
+  # -------------------------------------------------
   tk-maya:
     apps:
       tk-multi-about: '@about'
@@ -590,7 +590,7 @@ engines:
   #
   # -------------------------------------------------
   # Motionbuilder
-  # -------------------------------------------------  
+  # -------------------------------------------------
   tk-motionbuilder:
     apps:
       tk-multi-about: '@about'
@@ -1089,16 +1089,16 @@ engines:
     - {app_instance: tk-multi-workfiles, name: Shotgun Save As...}
     - {app_instance: tk-multi-publish, name: Publish...}
     template_project: asset_work_area_softimage
-    
+
 #
 ###############################################################################
 #
-# Framework includes. 
+# Framework includes.
 #
 # Frameworks are libraries that are shared between apps and that contain
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
-#      
+#
 frameworks:
   tk-framework-softimageqt_v1.0.1:
     location:

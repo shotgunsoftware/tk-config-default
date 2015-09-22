@@ -47,7 +47,7 @@ engines:
       name: tk-3dsmax
       type: app_store
       version: v0.3.5
-      
+
   #
   # -------------------------------------------------
   # 3dsmax plus
@@ -177,12 +177,12 @@ engines:
 #
 ###############################################################################
 #
-# Framework includes. 
+# Framework includes.
 #
 # Frameworks are libraries that are shared between apps and that contain
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
-#  
+#
 frameworks:
   tk-framework-softimageqt_v1.0.1:
     location:

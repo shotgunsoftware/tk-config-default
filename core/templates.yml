@@ -1,23 +1,23 @@
 # Copyright (c) 2015 Shotgun Software Inc.
-# 
+#
 # CONFIDENTIAL AND PROPRIETARY
-# 
-# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit 
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
 # Source Code License included in this distribution package. See LICENSE.
-# By accessing, using, copying or modifying this work you indicate your 
-# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights 
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
 # not expressly granted therein are reserved by Shotgun Software Inc.
 
 #
 # This file is one of the central points in the Shotgun Pipeline Toolkit configuration and
 # a counterpart to the folder configuration structure.
 #
-# The folder structure underneath the project folder is used to create folders on disk - 
-# templates.yml (this file) refers to those folders. Therefore, the two files need to be 
+# The folder structure underneath the project folder is used to create folders on disk -
+# templates.yml (this file) refers to those folders. Therefore, the two files need to be
 # in sync. This file contains an overview of all locations that are used by Sgtk.
 #
-# Whenever an app or an engine refers to a location on disk, it is using an entry defined in 
-# this file. For more information, see the Shotgun Pipeline Toolkit Documentation. 
+# Whenever an app or an engine refers to a location on disk, it is using an entry defined in
+# this file. For more information, see the Shotgun Pipeline Toolkit Documentation.
 
 
 
@@ -55,23 +55,23 @@ keys:
         type: int
     height:
         type: int
-        
+
     # Represents the optional output name for frames written by the Shotgun Write Node
     nuke.output:
         alias: output
         type: str
         filter_by: alphanumeric
-        
+
     SEQ:
         type: sequence
         format_spec: "04"
     eye:
         type: str
-    
+
     houdini.node:
         alias: node
         type: str
-    
+
     # these are used by the Hiero exporter and pipeline
     YYYY:
         type: int
@@ -85,8 +85,8 @@ keys:
         alias: DD
     project:
         type: str
-        
-    # These are used for the Mari UDIM pipeline:        
+
+    # These are used for the Mari UDIM pipeline:
     UDIM:
         type: sequence
         default: "<UDIM>"
@@ -106,7 +106,7 @@ keys:
     task_name:
         type: str
         shotgun_entity_type: Task
-        shotgun_field_name: content 
+        shotgun_field_name: content
 
 
 
@@ -118,11 +118,11 @@ keys:
 # Apps use these paths as part of their configuration to define where on disk
 # different files should go.
 #
-# In this default configuration, all of the root_name keys will be set to 'primary'. 
-# This is because the default configuration stores all its production data in a single 
-# tree and hence uses a single root folder on disk. If you wanted to extend the 
-# configuration to span multiple root points, for example because you want to store 
-# renders on a different server, you could define an additional root in Shotgun, and 
+# In this default configuration, all of the root_name keys will be set to 'primary'.
+# This is because the default configuration stores all its production data in a single
+# tree and hence uses a single root folder on disk. If you wanted to extend the
+# configuration to span multiple root points, for example because you want to store
+# renders on a different server, you could define an additional root in Shotgun, and
 # then switch any relevant templates to point to that one instead.
 #
 
@@ -130,9 +130,9 @@ paths:
 
     # Common  path definitions to use as shorthand in order to avoid repetitive and verbose
     # templates. This also makes it easy to change any of the common root paths and have the
-    # changes apply to all templates that use them. 
+    # changes apply to all templates that use them.
     #
-    # These don't require the standard formatting (with definition and root_name) because they 
+    # These don't require the standard formatting (with definition and root_name) because they
     # will be set within each template that uses the alias.
     shot_root: sequences/{Sequence}/{Shot}/{Step}
     asset_root: assets/{sg_asset_type}/{Asset}/{Step}
@@ -140,7 +140,7 @@ paths:
 
 
     ##########################################################################################
-    # Project level paths 
+    # Project level paths
     #
 
     #
@@ -168,12 +168,12 @@ paths:
 
 
     ##########################################################################################
-    # Sequence level paths 
+    # Sequence level paths
     #
 
 
     ##########################################################################################
-    # Shot level paths 
+    # Shot level paths
     #
 
 
@@ -314,7 +314,7 @@ paths:
 
 
     #
-    # Nuke 
+    # Nuke
     #
 
     # define the location of a work area
@@ -398,13 +398,13 @@ paths:
 
 
     ##########################################################################################
-    # Asset pipeline 
-    
+    # Asset pipeline
+
 
     #
     # Alembic caches
     #
-    
+
     asset_alembic_cache:
         definition: '@asset_root/publish/caches/{name}.v{version}.abc'
         root_name: 'primary'
@@ -432,11 +432,11 @@ paths:
     photoshop_asset_publish:
         definition: '@asset_root/publish/photoshop/{name}.v{version}.psd'
         root_name: 'primary'
- 
+
 
     #
     # Mari
-    #    
+    #
     asset_mari_texture_tif:
         definition: '@asset_root/publish/mari/{name}_{mari.channel}[_{mari.layer}].v{version}.{UDIM}.tif'
         root_name: 'primary'
@@ -444,7 +444,7 @@ paths:
     #
     # Maya
     #
-    
+
     # define the location of a work area
     asset_work_area_maya:
         definition: '@asset_root/work/maya'
@@ -504,7 +504,7 @@ paths:
     #
     # 3dsmax
     #
-    
+
     # define the location of a work area
     asset_work_area_max:
         definition: '@asset_root/work/3dsmax'
@@ -621,14 +621,14 @@ paths:
 
 #
 # The strings section is similar to the paths section - but rather than defining paths
-# on disk, it contains a list of strings. Strings are typically used when you want to be 
+# on disk, it contains a list of strings. Strings are typically used when you want to be
 # able to configure the way data is written to shotgun - it may be the name field for a
 # review version or the formatting of a publish.
 #
 
 strings:
 
-    # when a review Version in Shotgun is created inside of Nuke, this is the 
+    # when a review Version in Shotgun is created inside of Nuke, this is the
     # name that is being given to it (the code field)
     nuke_shot_version_name: "{Shot}_{name}_{nuke.output}_v{version}.{iteration}"
     nuke_quick_shot_version_name: "{Shot}_{name}_quick_{iteration}"
@@ -641,4 +641,3 @@ strings:
 
     # define how new Mari projects should be named
     mari_asset_project_name: "{mari.project_name} - Asset {asset_name}, {task_name}"
-    

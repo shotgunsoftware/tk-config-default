@@ -371,12 +371,12 @@ engines:
 #
 ###############################################################################
 #
-# Framework includes. 
+# Framework includes.
 #
 # Frameworks are libraries that are shared between apps and that contain
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
-#  
+#
 frameworks:
   tk-framework-adminui_v0.x.x:
     location:
