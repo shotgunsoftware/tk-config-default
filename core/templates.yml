@@ -438,7 +438,7 @@ paths:
     # Mari
     #    
     asset_mari_texture_tif:
-        definition: '@asset_root/publish/mari/{name}_{channel}[_{mari.layer}].v{version}.{UDIM}.tif'
+        definition: '@asset_root/publish/mari/{name}_{mari.channel}[_{mari.layer}].v{version}.{UDIM}.tif'
         root_name: 'primary'
 
     #
