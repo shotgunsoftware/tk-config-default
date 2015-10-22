@@ -300,6 +300,8 @@ engines:
         template_work_area: asset_work_area_houdini
         version_compare_ignore_fields: []
     debug_logging: false
+    enable_sg_shelf: true
+    enable_sg_menu: true
     location:
       version: v0.2.5
       type: app_store
@@ -313,8 +315,6 @@ engines:
   # -------------------------------------------------
   # Mari
   # -------------------------------------------------
-    enable_sg_shelf: true
-    enable_sg_menu: true
   tk-mari:
     apps:
       tk-mari-projectmanager:
