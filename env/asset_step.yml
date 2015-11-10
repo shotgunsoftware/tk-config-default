@@ -56,7 +56,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -159,7 +159,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -354,7 +354,7 @@ engines:
           publish_filters: []
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -476,7 +476,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -533,7 +533,7 @@ engines:
             filters: {}
         actions_hook: '{self}/tk-maya_actions.py'
         location:
-          version: v1.0.5
+          version: v1.1.0
           type: app_store
           name: tk-multi-shotgunpanel
         shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -616,7 +616,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -731,7 +731,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -808,7 +808,7 @@ engines:
             filters: {}
         actions_hook: '{self}/tk-nuke_actions.py'
         location:
-          version: v1.0.5
+          version: v1.1.0
           type: app_store
           name: tk-multi-shotgunpanel
         shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -926,7 +926,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.7.4
+          version: v1.8.0
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1110,3 +1110,13 @@ frameworks:
       name: tk-framework-softimageqt
       type: app_store
       version: v1.0.1
+  tk-framework-shotgunutils_v3.x.x:
+    location:
+      version: v3.1.0
+      type: app_store
+      name: tk-framework-shotgunutils
+  tk-framework-qtwidgets_v2.x.x:
+    location:
+      version: v2.1.0
+      type: app_store
+      name: tk-framework-qtwidgets
