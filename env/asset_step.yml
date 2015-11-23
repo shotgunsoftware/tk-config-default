@@ -527,7 +527,7 @@ engines:
           - actions: [udim_texture_node]
             filters: {published_file_type: UDIM Image}
           Task:
-          - actions: [assign_task]
+          - actions: [assign_task, task_to_ip]
             filters: {}
         actions_hook: '{self}/tk-maya_actions.py'
         location:
@@ -802,7 +802,7 @@ engines:
           - actions: [script_import]
             filters: {published_file_type: Nuke Script}
           Task:
-          - actions: [assign_task]
+          - actions: [assign_task, task_to_ip]
             filters: {}
         actions_hook: '{self}/tk-nuke_actions.py'
         location:
