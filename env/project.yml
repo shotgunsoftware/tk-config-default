@@ -37,10 +37,9 @@ engines:
       tk-multi-workfiles: '@workfiles'
     debug_logging: false
     location:
-      name: tk-3dsmax
+      version: v0.3.6
       type: app_store
-      version: v0.3.5
-
+      name: tk-3dsmax
   #
   # -------------------------------------------------
   # 3dsmax plus
@@ -86,7 +85,7 @@ engines:
       name: Finishing Tools
     hook_launch_python: default
     location:
-      version: v2.0.8
+      version: v2.0.9
       type: app_store
       name: tk-desktop
     show_recents: true
@@ -266,9 +265,9 @@ engines:
     compatibility_dialog_min_version: 2015
     debug_logging: false
     location:
-      name: tk-maya
+      version: v0.5.3
       type: app_store
-      version: v0.5.2
+      name: tk-maya
     menu_favourites:
     - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
     template_project:
@@ -385,9 +384,9 @@ frameworks:
       version: v0.1.2
   tk-framework-login_v1.x.x:
     location:
-      name: tk-framework-login
+      version: v1.2.2
       type: app_store
-      version: v1.2.1
+      name: tk-framework-login
   tk-framework-softimageqt_v1.0.1:
     location:
       name: tk-framework-softimageqt
