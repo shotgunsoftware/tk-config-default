@@ -305,9 +305,8 @@ engines:
           name: tk-multi-shotgunpanel
         action_mappings:
           Task:
-          - filters: {}
-            actions:
-            - assign_task
+          - actions: [assign_task, task_to_ip]
+            filters: {}
         actions_hook: '{self}/general_actions.py'
         shotgun_fields_hook: '{self}/shotgun_fields.py'
     debug_logging: false
