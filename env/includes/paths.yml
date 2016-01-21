@@ -32,8 +32,8 @@ maya_linux: maya
 #
 # Nuke
 #
-nuke_mac: /Applications/Nuke9.0v7/Nuke9.0v7.app
-nuke_windows: 'C:\Program Files\Nuke9.0v7\Nuke9.0.exe'
+nuke_mac: /Applications/Nuke9.0v8/Nuke9.0v8.app
+nuke_windows: 'C:\Program Files\Nuke9.0v8\Nuke9.0.exe'
 nuke_linux: Nuke9.0
 
 

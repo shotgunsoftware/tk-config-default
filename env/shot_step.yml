@@ -782,7 +782,7 @@ engines:
         codec_settings_hook: '{self}/codec_settings.py'
       tk-nuke-writenode:
         location:
-          version: v1.1.0
+          version: v1.1.1
           type: app_store
           name: tk-nuke-writenode
         template_script_work: nuke_shot_work
