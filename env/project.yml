@@ -389,7 +389,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.0
+          version: v0.8.2
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the selected Hiero project
@@ -405,7 +405,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.0
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: hiero_project_snapshot
