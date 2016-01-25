@@ -194,7 +194,7 @@ launch_nukestudio:
   extra: {}
   hook_app_launch: default
   hook_before_app_launch: default
-  icon: '{target_engine}/icon_256.png'
+  icon: '{target_engine}/icon_nukestudio_256.png'
   linux_args: '--studio'
   linux_path: '@nukestudio_linux'
   location:
