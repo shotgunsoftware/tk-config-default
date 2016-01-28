@@ -54,7 +54,7 @@ motionbuilder_windows: 'C:\Program Files\Autodesk\MotionBuilder 2014\bin\x64\mot
 #
 # 3dsmax 2015
 #
-3dsmax_windows: 'C:\Program Files\Autodesk\3ds Max 2015\3dsmax.exe'
+3dsmax_windows: 'C:\Program Files\Autodesk\3ds Max 2016\3dsmax.exe'
 
 
 #
