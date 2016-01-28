@@ -56,7 +56,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -75,7 +75,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -92,7 +92,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: max_asset_snapshot
@@ -107,7 +107,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -158,7 +158,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -177,7 +177,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -194,7 +194,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: max_asset_snapshot
@@ -209,7 +209,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -251,7 +251,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current scene
@@ -268,7 +268,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: houdini_asset_snapshot
@@ -283,7 +283,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -331,18 +331,19 @@ engines:
         default_project_name: Shotgun
         get_project_creation_args_hook: '{self}/get_project_creation_args.py'
         location:
-          name: tk-mari-projectmanager
+          version: v1.2.0
           type: app_store
-          version: v1.1.0
+          name: tk-mari-projectmanager
         publish_types: [Alembic Cache]
         template_new_project_name: mari_asset_project_name
+        post_project_creation_hook: '{self}/post_project_creation.py'
       tk-multi-about: '@about'
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-mari_scene_operations.py'
         location:
-          name: tk-multi-breakdown
+          version: v1.4.1
           type: app_store
-          version: v1.3.1
+          name: tk-multi-breakdown
       tk-multi-loader2:
         action_mappings:
           Alembic Cache: [geometry_import]
@@ -364,7 +365,7 @@ engines:
           publish_filters: []
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -383,7 +384,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish items from the current Mari project
@@ -424,7 +425,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -455,9 +456,9 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-maya_scene_operations.py'
         location:
-          name: tk-multi-breakdown
+          version: v1.4.1
           type: app_store
-          version: v1.3.1
+          name: tk-multi-breakdown
       tk-multi-loader2:
         action_mappings:
           Maya Scene: [reference, import]
@@ -485,7 +486,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -504,7 +505,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Maya scene
@@ -551,7 +552,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: maya_asset_snapshot
@@ -566,7 +567,7 @@ engines:
         launch_at_startup: true
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -625,7 +626,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -644,7 +645,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current work file
@@ -661,7 +662,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: mobu_asset_snapshot
@@ -676,7 +677,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -712,9 +713,9 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          name: tk-multi-breakdown
+          version: v1.4.1
           type: app_store
-          version: v1.3.1
+          name: tk-multi-breakdown
       tk-multi-loader2:
         action_mappings:
           Nuke Script: [script_import]
@@ -741,7 +742,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -760,7 +761,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publishes and versions up the current Nuke script.
@@ -793,7 +794,7 @@ engines:
         template_work: nuke_asset_work
       tk-multi-reviewsubmission:
         location:
-          version: v0.2.1
+          version: v0.3.0
           type: app_store
           name: tk-multi-reviewsubmission
         movie_height: 540
@@ -827,7 +828,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: nuke_asset_snapshot
@@ -842,7 +843,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -861,7 +862,7 @@ engines:
         current_scene_template: nuke_asset_work
         height: 768
         location:
-          version: v0.2.1
+          version: v0.3.0
           type: app_store
           name: tk-nuke-quickdailies
         movie_template: asset_quicktime_quick
@@ -872,7 +873,7 @@ engines:
         codec_settings_hook: '{self}/codec_settings.py'
       tk-nuke-writenode:
         location:
-          version: v1.0.19
+          version: v1.1.1
           type: app_store
           name: tk-nuke-writenode
         template_script_work: nuke_asset_work
@@ -891,7 +892,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.4.1
+      version: v0.5.3
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -936,7 +937,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -955,7 +956,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Photoshop scene
@@ -972,7 +973,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: photoshop_asset_snapshot
@@ -987,7 +988,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -1046,7 +1047,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Softimage scene
@@ -1063,7 +1064,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: softimage_asset_snapshot
@@ -1078,7 +1079,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene

@@ -55,7 +55,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -74,7 +74,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -88,9 +88,9 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-setframerange:
         location:
-          name: tk-multi-setframerange
+          version: v0.3.0
           type: app_store
-          version: v0.2.4
+          name: tk-multi-setframerange
         sg_in_frame_field: sg_cut_in
         sg_out_frame_field: sg_cut_out
       tk-multi-snapshot:
@@ -98,7 +98,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: max_shot_snapshot
@@ -113,7 +113,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -167,7 +167,7 @@ engines:
           publish_filters: []
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -186,7 +186,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -200,9 +200,9 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-setframerange:
         location:
-          name: tk-multi-setframerange
+          version: v0.3.0
           type: app_store
-          version: v0.2.4
+          name: tk-multi-setframerange
         sg_in_frame_field: sg_cut_in
         sg_out_frame_field: sg_cut_out
       tk-multi-snapshot:
@@ -210,7 +210,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: max_shot_snapshot
@@ -225,7 +225,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -267,7 +267,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current scene
@@ -281,9 +281,9 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-setframerange:
         location:
-          name: tk-multi-setframerange
+          version: v0.3.0
           type: app_store
-          version: v0.2.4
+          name: tk-multi-setframerange
         sg_in_frame_field: sg_cut_in
         sg_out_frame_field: sg_cut_out
       tk-multi-snapshot:
@@ -291,7 +291,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: houdini_shot_snapshot
@@ -306,7 +306,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -354,9 +354,9 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-maya_scene_operations.py'
         location:
-          name: tk-multi-breakdown
+          version: v1.4.1
           type: app_store
-          version: v1.3.1
+          name: tk-multi-breakdown
       tk-multi-loader2:
         action_mappings:
           Maya Scene: [reference, import]
@@ -383,7 +383,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -402,7 +402,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Maya scene
@@ -416,9 +416,9 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-setframerange:
         location:
-          name: tk-multi-setframerange
+          version: v0.3.0
           type: app_store
-          version: v0.2.4
+          name: tk-multi-setframerange
         sg_in_frame_field: sg_cut_in
         sg_out_frame_field: sg_cut_out
       tk-multi-shotgunpanel:
@@ -446,7 +446,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: maya_shot_snapshot
@@ -461,7 +461,7 @@ engines:
         launch_at_startup: true
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -521,7 +521,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -540,7 +540,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current work file
@@ -554,9 +554,9 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-setframerange:
         location:
-          name: tk-multi-setframerange
+          version: v0.3.0
           type: app_store
-          version: v0.2.4
+          name: tk-multi-setframerange
         sg_in_frame_field: sg_cut_in
         sg_out_frame_field: sg_cut_out
       tk-multi-snapshot:
@@ -564,7 +564,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: mobu_shot_snapshot
@@ -579,7 +579,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -616,9 +616,9 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          name: tk-multi-breakdown
+          version: v1.4.1
           type: app_store
-          version: v1.4.0
+          name: tk-multi-breakdown
       tk-multi-loader2:
         action_mappings:
           Nuke Script: [script_import]
@@ -645,7 +645,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.0
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -664,7 +664,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.0
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publishes and versions up the current Nuke script.
@@ -738,7 +738,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.0
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: nuke_shot_snapshot
@@ -858,7 +858,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.0
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the selected Hiero project
@@ -874,7 +874,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.6.0
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: hiero_project_snapshot
@@ -981,9 +981,9 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          name: tk-multi-breakdown
+          version: v1.4.1
           type: app_store
-          version: v1.4.0
+          name: tk-multi-breakdown
       tk-multi-loader2:
         action_mappings:
           Nuke Script: [script_import]
@@ -1009,7 +1009,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.0
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1038,7 +1038,6 @@ engines:
     - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
     spreadsheet_context_menu: []
     timeline_context_menu: []
-
   #
   # -------------------------------------------------
   # photoshop
@@ -1071,7 +1070,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.9.1
+          version: v1.10.2
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1090,7 +1089,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Photoshop scene
@@ -1107,7 +1106,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: photoshop_shot_snapshot
@@ -1122,7 +1121,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene
@@ -1183,7 +1182,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.7.4
+          version: v0.8.4
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Softimage scene
@@ -1197,9 +1196,9 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-setframerange:
         location:
-          name: tk-multi-setframerange
+          version: v0.3.0
           type: app_store
-          version: v0.2.4
+          name: tk-multi-setframerange
         sg_in_frame_field: sg_cut_in
         sg_out_frame_field: sg_cut_out
       tk-multi-snapshot:
@@ -1207,7 +1206,7 @@ engines:
         hook_scene_operation: default
         hook_thumbnail: default
         location:
-          version: v0.5.2
+          version: v0.6.1
           type: app_store
           name: tk-multi-snapshot
         template_snapshot: softimage_shot_snapshot
@@ -1222,7 +1221,7 @@ engines:
         launch_at_startup: false
         launch_change_work_area_at_startup: false
         location:
-          version: v0.6.17
+          version: v0.7.0
           type: app_store
           name: tk-multi-workfiles
         saveas_default_name: scene

@@ -195,7 +195,7 @@ launch_nukestudio:
   hook_app_launch: default
   hook_before_app_launch: default
   icon: '{target_engine}/icon_nukestudio_256.png'
-  linux_args: '--studio'
+  linux_args: --studio
   linux_path: '@nukestudio_linux'
   location:
     version: v0.7.1
@@ -205,7 +205,7 @@ launch_nukestudio:
   mac_path: '@nukestudio_mac'
   menu_name: Launch NukeStudio
   versions: []
-  windows_args: '--studio'
+  windows_args: --studio
   windows_path: '@nukestudio_windows'
 #
 # -------------------------------------------------
@@ -238,7 +238,7 @@ launch_screeningroom:
   enable_rv_mode: true
   enable_web_mode: true
   location:
-    version: v0.2.0
+    version: v0.3.0
     type: app_store
     name: tk-multi-screeningroom
   rv_path_linux: '@rv_linux'
