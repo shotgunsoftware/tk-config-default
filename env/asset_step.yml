@@ -719,6 +719,7 @@ engines:
         action_mappings:
           Nuke Script: [script_import]
           Rendered Image: [read_node]
+          Alembic Cache: [read_node]
         actions_hook: '{self}/tk-nuke_actions.py'
         download_thumbnails: true
         entities:
