@@ -113,7 +113,7 @@ engines:
     compatibility_dialog_min_version: 2
     debug_logging: false
     location:
-      version: v1.1.1
+      version: v1.1.2
       type: app_store
       name: tk-mari
   #
@@ -167,7 +167,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.5.3
+      version: v0.5.4
       type: app_store
       name: tk-nuke
     menu_favourites:

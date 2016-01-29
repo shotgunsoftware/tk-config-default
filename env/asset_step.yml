@@ -75,7 +75,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -177,7 +177,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -251,7 +251,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current scene
@@ -384,7 +384,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish items from the current Mari project
@@ -443,7 +443,7 @@ engines:
     compatibility_dialog_min_version: 2
     debug_logging: false
     location:
-      version: v1.1.1
+      version: v1.1.2
       type: app_store
       name: tk-mari
   #
@@ -505,7 +505,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Maya scene
@@ -645,7 +645,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current work file
@@ -761,7 +761,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publishes and versions up the current Nuke script.
@@ -892,7 +892,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.5.3
+      version: v0.5.4
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -926,7 +926,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the selected Hiero project
@@ -1100,14 +1100,13 @@ engines:
     compatibility_dialog_min_version: 10
     debug_logging: false
     location:
-      version: v0.5.3
+      version: v0.5.4
       type: app_store
       name: tk-nuke
     menu_favourites:
     - {app_instance: tk-multi-workfiles, name: Shotgun File Manager...}
     spreadsheet_context_menu: []
     timeline_context_menu: []
-
   #
   # -------------------------------------------------
   # Photoshop
@@ -1159,7 +1158,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Photoshop scene
@@ -1250,7 +1249,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.4
+          version: v0.8.5
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Softimage scene
