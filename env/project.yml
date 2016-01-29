@@ -532,7 +532,7 @@ frameworks:
       version: v0.1.2
   tk-framework-login_v1.x.x:
     location:
-      version: v1.2.1
+      version: v1.2.2
       type: app_store
       name: tk-framework-login
   tk-framework-softimageqt_v1.0.1:
