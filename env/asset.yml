@@ -113,7 +113,7 @@ engines:
     compatibility_dialog_min_version: 2
     debug_logging: false
     location:
-      version: v1.1.0
+      version: v1.1.1
       type: app_store
       name: tk-mari
   #
