@@ -186,7 +186,7 @@ launch_nuke:
   windows_path: '@nuke_windows'
 #
 # -------------------------------------------------
-# Nuke
+# Nuke Studio
 # -------------------------------------------------
 launch_nukestudio:
   defer_keyword: ''
