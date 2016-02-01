@@ -56,7 +56,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -75,7 +75,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -158,7 +158,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -177,7 +177,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -251,7 +251,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current scene
@@ -341,7 +341,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-mari_scene_operations.py'
         location:
-          version: v1.4.1
+          version: v1.4.2
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -365,7 +365,7 @@ engines:
           publish_filters: []
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -384,7 +384,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish items from the current Mari project
@@ -456,7 +456,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-maya_scene_operations.py'
         location:
-          version: v1.4.1
+          version: v1.4.2
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -486,7 +486,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -505,7 +505,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Maya scene
@@ -626,7 +626,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -645,7 +645,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current work file
@@ -713,7 +713,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          version: v1.4.1
+          version: v1.4.2
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -742,7 +742,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -761,7 +761,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publishes and versions up the current Nuke script.
@@ -926,7 +926,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the selected Hiero project
@@ -1049,7 +1049,7 @@ engines:
       tk-multi-breakdown:
         hook_scene_operations: '{self}/tk-nuke_scene_operations.py'
         location:
-          version: v1.4.1
+          version: v1.4.2
           type: app_store
           name: tk-multi-breakdown
       tk-multi-loader2:
@@ -1078,7 +1078,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1139,7 +1139,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.10.2
+          version: v1.10.3
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1158,7 +1158,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Photoshop scene
@@ -1249,7 +1249,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.8.5
+          version: v0.8.6
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Softimage scene
