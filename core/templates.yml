@@ -253,7 +253,7 @@ paths:
         root_name: 'primary'
     # Alembic caches
     houdini_shot_work_alembic_cache:
-        definition: '@shot_root/work/houdini/cache/alembic/{name}/{houdini.node}v{version}/{Shot}_{name}_v{version}.abc'
+        definition: '@shot_root/work/houdini/cache/alembic/{name}/{houdini.node}/v{version}/{Shot}_{name}_v{version}.abc'
         root_name: 'primary'
 
     # Rendered images
