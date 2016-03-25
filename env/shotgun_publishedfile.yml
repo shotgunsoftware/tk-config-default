@@ -40,9 +40,6 @@ engines:
       tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-shotgun-launchpublish:
-        deny_permissions: []
-        deny_platforms: []
-        hook_launch_publish: default
         location:
           name: tk-shotgun-launchpublish
           type: app_store
@@ -51,7 +48,6 @@ engines:
         viewer_path_linux: '@rv_linux'
         viewer_path_mac: '@rv_mac'
         viewer_path_windows: '@rv_win'
-    debug_logging: false
     location:
       name: tk-shotgun
       type: app_store
@@ -65,4 +61,4 @@ engines:
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
 #
-frameworks: null
+frameworks:
