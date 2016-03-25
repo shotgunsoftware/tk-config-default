@@ -10,7 +10,7 @@
 #
 
 description: This environment controls what items should be shown on the menu in Shotgun
-             for tasks.
+  for tasks. 
 
 #################################################################################################
 # include common definitions for all the launchers that are used to start maya, nuke etc.
@@ -40,13 +40,10 @@ engines:
       tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-shotgun-launchfolder:
-        deny_permissions: []
-        deny_platforms: []
         location:
           name: tk-shotgun-launchfolder
           type: app_store
           version: v0.1.5
-    debug_logging: false
     location:
       name: tk-shotgun
       type: app_store
@@ -61,4 +58,4 @@ engines:
 # common functionality for building UIs and communicating with Shotgun.
 # Frameworks are automatically installed when apps are installed and udpated.
 #
-frameworks: null
+frameworks:
