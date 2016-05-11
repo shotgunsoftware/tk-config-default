@@ -1,0 +1,7 @@
+location:
+  branch: improved_logging
+  type: git_branch
+  path: https://github.com/shotgunsoftware/tk-core.git
+  version: 7ba4f472da23bcb45066d78ebfbe80b1a12c9515
+
+
