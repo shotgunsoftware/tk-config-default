@@ -24,6 +24,35 @@ about:
     name: tk-multi-about
     type: app_store
     version: v0.2.0
+
+#
+# General Shotgun Panel configuration
+#
+shotgunpanel:
+  location:
+    version: v1.2.6
+    type: app_store
+    name: tk-multi-shotgunpanel
+  shotgun_fields_hook: '{self}/shotgun_fields.py'
+  actions_hook: '{self}/general_actions.py'
+  action_mappings:
+    PublishedFile:
+    - actions:
+      - publish_clipboard
+      filters: {}
+    Task:
+    - actions:
+      - assign_task
+      - task_to_ip
+      filters: {}
+    Version:
+    - actions:
+      - quicktime_clipboard
+      - sequence_clipboard
+      filters: {}
+
+
+
 #
 # General File Manager configuration.
 # -----------------------------------
@@ -154,3 +183,5 @@ frameworks:
       version: v0.2.3
       type: app_store
       name: tk-framework-widget
+
+

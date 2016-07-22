@@ -53,6 +53,7 @@ engines:
   tk-3dsmaxplus:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     compatibility_dialog_min_version: 2017
@@ -69,6 +70,7 @@ engines:
   tk-houdini:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     location:
@@ -86,6 +88,7 @@ engines:
   tk-maya:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2-launch-at-startup'
     compatibility_dialog_min_version: 2015
@@ -106,6 +109,7 @@ engines:
   tk-motionbuilder:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
@@ -124,6 +128,7 @@ engines:
   tk-nuke:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     compatibility_dialog_min_version: 10
@@ -166,6 +171,7 @@ engines:
   tk-softimage:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false

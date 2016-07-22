@@ -47,6 +47,7 @@ engines:
   tk-3dsmaxplus:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     compatibility_dialog_min_version: 2017
@@ -132,6 +133,7 @@ engines:
           type: app_store
           version: v0.3.0
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-publish:
         allow_taskless_publishes: true
         display_name: Publish Project
@@ -226,6 +228,7 @@ engines:
   tk-houdini:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     location:
@@ -243,6 +246,7 @@ engines:
   tk-mari:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-workfiles:
         allow_task_creation: true
         file_extensions: []
@@ -281,6 +285,7 @@ engines:
   tk-maya:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2-launch-at-startup'
     compatibility_dialog_min_version: 2015
@@ -301,6 +306,7 @@ engines:
   tk-motionbuilder:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
@@ -320,6 +326,7 @@ engines:
   tk-nuke:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     compatibility_dialog_min_version: 10
@@ -500,6 +507,7 @@ engines:
   tk-photoshop:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
@@ -535,6 +543,7 @@ engines:
   tk-softimage:
     apps:
       tk-multi-about: '@about'
+      tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
