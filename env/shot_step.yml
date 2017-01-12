@@ -1151,7 +1151,7 @@ engines:
         action_mappings:
           Photoshop Image: [add_as_a_layer, open_file]
           Rendered Image: [add_as_a_layer, open_file]
-        actions_hook: '{self}/tk-photoshop_actions.py'
+        actions_hook: default
         download_thumbnails: true
         entities:
         - caption: Assets

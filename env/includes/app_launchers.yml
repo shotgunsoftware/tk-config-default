@@ -214,7 +214,7 @@ launch_nukestudio:
 launch_photoshop:
   defer_keyword: ''
   engine: tk-photoshop
-  extra: '@photoshop_extras'
+  extra: {}
   hook_app_launch: default
   hook_before_app_launch: default
   icon: '{target_engine}/icon_256.png'
