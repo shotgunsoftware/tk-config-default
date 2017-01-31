@@ -57,7 +57,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -344,7 +344,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -412,7 +412,7 @@ engines:
           publish_filters: []
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -555,7 +555,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -704,7 +704,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -851,7 +851,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1199,7 +1199,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1279,7 +1279,7 @@ engines:
           hierarchy: [entity, content]
         filter_publishes_hook: '{self}/filter_publishes.py'
         location:
-          version: v1.14.0
+          version: v1.14.1
           type: app_store
           name: tk-multi-loader2
         menu_name: Load
@@ -1383,7 +1383,7 @@ engines:
     - {app_instance: tk-multi-publish, name: Publish...}
     debug_logging: false
     location:
-      version: v1.0.0
+      version: v1.0.1
       type: app_store
       name: tk-photoshopcc
   #
