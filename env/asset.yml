@@ -179,6 +179,9 @@ engines:
       tk-multi-shotgunpanel: '@shotgunpanel'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
+    shelf_favorites:
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
     debug_logging: false
     location:
       version: v1.0.0
