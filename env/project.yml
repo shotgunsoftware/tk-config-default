@@ -488,7 +488,7 @@ engines:
       requires_selection: true}
   #
   # -------------------------------------------------
-  # Photoshop
+  # Photoshop CC
   # -------------------------------------------------
   tk-photoshopcc:
     apps:
