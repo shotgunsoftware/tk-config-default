@@ -66,7 +66,7 @@ houdini_linux: '/opt/hfs15.0.244.16/bin/houdini'
 
 
 #
-# photoshop CC
+# Photoshop CC
 #
 photoshop_mac: /Applications/Adobe Photoshop CC 2017/Adobe Photoshop CC 2017.app
 photoshop_win: 'C:\Program Files\Adobe\Adobe Photoshop CC 2017\Photoshop.exe'

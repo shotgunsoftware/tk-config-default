@@ -209,7 +209,7 @@ launch_nukestudio:
   windows_path: '@nukestudio_windows'
 #
 # -------------------------------------------------
-# Photoshop
+# Photoshop CC
 # -------------------------------------------------
 launch_photoshopcc:
   defer_keyword: ''
