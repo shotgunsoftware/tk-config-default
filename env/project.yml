@@ -20,6 +20,9 @@ includes:
 # common app configurations that are reused across environments
 - ./includes/common_apps.yml
 
+# include the multi-publish2 settings
+- ./includes/common/settings/tk-multi-publish2.yml
+
 #################################################################################################
 # define all the items that should appear in this environment
 
@@ -60,6 +63,19 @@ engines:
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
       tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
+
+      # standalone publishing
+      tk-multi-publish2:
+        collector: "{config}/tk-multi-publish2/basic/collector.py"
+        publish_plugins:
+          - '@common.settings.tk-multi-publish2.publish_file'
+          - '@common.settings.tk-multi-publish2.upload_version'
+        help_url: "https://support.shotgunsoftware.com/hc/en-us/articles/115000067473#Publisher"
+        location:
+          type: app_store
+          version: v1.1.6
+          name: tk-multi-publish2
+
     collapse_rules:
     - {button_label: $app, match: Launch $app, menu_label: None}
     debug_logging: false
