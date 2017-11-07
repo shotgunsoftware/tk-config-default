@@ -19,6 +19,8 @@ includes:
 - ./includes/app_launchers.yml
 # common app configurations that are reused across environments
 - ./includes/common_apps.yml
+# include flame launchers
+- ./includes/flame.yml
 
 #################################################################################################
 # define all the items that should appear in this environment
@@ -50,6 +52,10 @@ engines:
   tk-desktop:
     apps:
       tk-multi-launch3dsmax: '@launch_3dsmax'
+      tk-multi-launchflame: '@launch_flame'
+      tk-multi-launchflare: '@launch_flare'
+      tk-multi-launchflameassist: '@launch_flame_assist'
+      #tk-multi-launchflamepremium: '@launch_flame_premium'
       tk-multi-launchhiero: '@launch_hiero'
       tk-multi-launchhoudini: '@launch_houdini'
       tk-multi-launchmari: '@launch_mari'
@@ -79,6 +85,16 @@ engines:
       name: tk-desktop
     show_recents: true
 
+  #
+  # -------------------------------------------------
+  # Flame
+  # -------------------------------------------------
+  tk-flame: '@std_flame_flare'
+  #
+  # -------------------------------------------------
+  # Flare
+  # -------------------------------------------------
+  tk-flare: '@std_flame_flare'
   #
   # -------------------------------------------------
   # Hiero
@@ -521,6 +537,10 @@ engines:
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
       tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
+      tk-multi-launchflame: '@launch_flame'
+      tk-multi-launchflare: '@launch_flare'
+      tk-multi-launchflameassist: '@launch_flame_assist'
+      #tk-multi-launchflamepremium: '@launch_flame_premium'
     location:
       version: v0.5.1
       type: app_store

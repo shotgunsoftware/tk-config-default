@@ -694,6 +694,8 @@ engines:
           Nuke Script: [script_import]
           Rendered Image: [read_node]
           Alembic Cache: [read_node]
+          Flame Render: [read_node]
+          Flame Quicktime: [read_node]
         actions_hook: '{self}/tk-nuke_actions.py'
         download_thumbnails: true
         entities:
@@ -764,6 +766,16 @@ engines:
           scene_item_type: write_node
           selected: true
           tank_type: Quicktime
+        - description: Make this publish available in Flame
+          display_group: Shotgun Write Nodes
+          display_name: Update Flame
+          icon: icons/publish_nuke_flame.png
+          name: flame
+          publish_template: flame_shot_clip
+          required: false
+          scene_item_type: write_node
+          selected: true
+          tank_type: unused
         template_work: nuke_shot_work
       tk-multi-reviewsubmission:
         location:

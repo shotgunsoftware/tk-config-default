@@ -25,6 +25,8 @@ includes:
 - ./includes/app_launchers.yml
 # common app configurations that are reused across environments
 - ./includes/common_apps.yml
+# include flame launchers
+- ./includes/flame.yml
 
 #################################################################################################
 # define all the items that should appear in this environment
@@ -148,6 +150,17 @@ engines:
       version: v1.0.1
       type: app_store
       name: tk-photoshopcc
+
+  #
+  # -------------------------------------------------
+  # Flame
+  # -------------------------------------------------
+  tk-flame: '@std_flame_flare'
+  #
+  # -------------------------------------------------
+  # Flare
+  # -------------------------------------------------
+  tk-flare: '@std_flame_flare'
   #
   # -------------------------------------------------
   # Shell (tank command)
@@ -159,6 +172,9 @@ engines:
       tk-multi-launchmaya: '@launch_maya'
       tk-multi-launchmotionbuilder: '@launch_motionbuilder'
       tk-multi-launchnuke: '@launch_nuke'
+      tk-multi-launchflare: '@launch_flare'
+      #tk-multi-launchflamepremium: '@launch_flame_premium'
+      tk-multi-launchflame: '@launch_flame'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
       tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'

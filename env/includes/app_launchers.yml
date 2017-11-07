@@ -48,6 +48,98 @@ launch_3dsmax:
   windows_path: '@3dsmax_windows'
 #
 # -------------------------------------------------
+# Flame
+# -------------------------------------------------
+launch_flame:
+  defer_keyword: ''
+  engine: tk-flame
+  extra: {}
+  hook_app_launch: default
+  hook_before_app_launch: default
+  icon: '{target_engine}/flame_icon_256.png'
+  linux_args: ''
+  linux_path: '@flame_linux'
+  location:
+    version: v0.8.0
+    type: app_store
+    name: tk-multi-launchapp
+  mac_args: ''
+  mac_path: '@flame_mac'
+  menu_name: Launch Flame
+  versions: []
+  windows_args: ''
+  windows_path: ''
+#
+# -------------------------------------------------
+# Flame Premium
+# -------------------------------------------------
+#launch_flame_premium:
+#  defer_keyword: ''
+#  engine: tk-flame
+#  extra: {}
+#  hook_app_launch: default
+#  hook_before_app_launch: default
+#  icon: '{target_engine}/flame_icon_256.png'
+#  linux_args: ''
+#  linux_path: '@flame_premium_linux'
+#  location:
+#    version: v0.8.0
+#    type: app_store
+#    name: tk-multi-launchapp
+#  mac_args: ''
+#  mac_path: ''
+#  menu_name: Launch FlamePremium # note: desktop app means we cannot have spaces in app name
+#  versions: []
+#  windows_args: ''
+#  windows_path: ''
+#
+# -------------------------------------------------
+# Flame Assist
+# -------------------------------------------------
+launch_flame_assist:
+  defer_keyword: ''
+  engine: tk-flame
+  extra: {}
+  hook_app_launch: default
+  hook_before_app_launch: default
+  icon: '{target_engine}/flame_assist_icon_256.png'
+  linux_args: ''
+  linux_path: '@flame_assist_linux'
+  location:
+    version: v0.8.0
+    type: app_store
+    name: tk-multi-launchapp
+  mac_args: ''
+  mac_path: '@flame_assist_mac'
+  menu_name: Launch FlameAssist
+  versions: []
+  windows_args: ''
+  windows_path: ''
+#
+# -------------------------------------------------
+# Flare
+# -------------------------------------------------
+launch_flare:
+  defer_keyword: ''
+  engine: tk-flare
+  extra: {}
+  hook_app_launch: default
+  hook_before_app_launch: default
+  icon: '{target_engine}/flare_icon_256.png'
+  linux_args: ''
+  linux_path: '@flare_linux'
+  location:
+    version: v0.8.0
+    type: app_store
+    name: tk-multi-launchapp
+  mac_args: ''
+  mac_path: '@flare_mac'
+  menu_name: Launch Flare
+  versions: []
+  windows_args: ''
+  windows_path: ''
+#
+# -------------------------------------------------
 # Hiero
 # -------------------------------------------------
 launch_hiero:
