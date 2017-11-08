@@ -63,15 +63,13 @@ engines:
       tk-multi-launchnuke: '@launch_nuke'
       tk-multi-launchnukestudio: '@launch_nukestudio'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
-      tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
     collapse_rules:
     - {button_label: $app, match: Launch $app, menu_label: None}
     debug_logging: false
     default_group: Studio
     groups:
-    - matches: ['*Houdini*', '*Mari*', '*Max*', '*Maya*', '*Motion*', '*Nuke*', '*Photoshop*',
-        '*Softimage*']
+    - matches: ['*Houdini*', '*Mari*', '*Max*', '*Maya*', '*Motion*', '*Nuke*', '*Photoshop*']
       name: Creative Tools
     - matches: ['*Hiero*']
       name: Editorial Tools
@@ -534,7 +532,6 @@ engines:
       tk-multi-launchnuke: '@launch_nuke'
       tk-multi-launchnukestudio: '@launch_nukestudio'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
-      tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-launchflame: '@launch_flame'
       tk-multi-launchflare: '@launch_flare'
@@ -543,24 +540,6 @@ engines:
       version: v0.5.1
       type: app_store
       name: tk-shell
-  #
-  # -------------------------------------------------
-  # Softimage
-  # -------------------------------------------------
-  tk-softimage:
-    apps:
-      tk-multi-about: '@about'
-      tk-multi-shotgunpanel: '@shotgunpanel'
-      tk-multi-screeningroom: '@launch_screeningroom'
-      tk-multi-workfiles2: '@workfiles2'
-    debug_logging: false
-    location:
-      version: v0.3.2
-      type: app_store
-      name: tk-softimage
-    menu_favourites:
-    - {app_instance: tk-multi-workfiles2, name: File Open...}
-    template_project:
 #
 ###############################################################################
 #
@@ -576,8 +555,3 @@ frameworks:
       version: v0.1.6
       type: app_store
       name: tk-framework-adminui
-  tk-framework-softimageqt_v1.0.1:
-    location:
-      name: tk-framework-softimageqt
-      type: app_store
-      version: v1.0.1

@@ -38,7 +38,6 @@ engines:
       tk-multi-launchflare: '@launch_flare'
       tk-multi-launchflame: '@launch_flame'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
-      tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-shotgun-folders:
         deny_permissions: []

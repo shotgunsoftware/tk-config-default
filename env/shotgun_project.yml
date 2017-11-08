@@ -42,7 +42,6 @@ engines:
       tk-multi-launchnuke: '@launch_nuke'
       tk-multi-launchnukestudio: '@launch_nukestudio'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
-      tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-shotgun-launchfolder:
         deny_permissions: []

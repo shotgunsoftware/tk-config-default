@@ -314,26 +314,3 @@ launch_screeningroom:
   rv_path_mac: '@rv_mac'
   rv_path_windows: '@rv_win'
   init_hook: '{self}/init.py'
-#
-# -------------------------------------------------
-# Softimage
-# -------------------------------------------------
-launch_softimage:
-  defer_keyword: ''
-  engine: tk-softimage
-  extra: {}
-  hook_app_launch: default
-  hook_before_app_launch: default
-  icon: '{target_engine}/icon_256.png'
-  linux_args: ''
-  linux_path: '@softimage_linux'
-  location:
-    version: v0.8.0
-    type: app_store
-    name: tk-multi-launchapp
-  mac_args: ''
-  mac_path: ''
-  menu_name: Launch Softimage
-  versions: []
-  windows_args: ''
-  windows_path: '@softimage_windows'

@@ -99,13 +99,6 @@ flare_linux: /opt/Autodesk/flare_2018.3/bin/startApplication
 
 
 #
-# Softimage
-#
-softimage_windows: C:\Program Files\Autodesk\Softimage 2013\Application\bin\XSI.bat
-softimage_linux: XSI
-
-
-#
 # Tweak RV
 #
 rv_mac: /Applications/RV64.app
