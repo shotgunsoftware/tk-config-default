@@ -71,29 +71,6 @@ launch_flame:
   windows_path: ''
 #
 # -------------------------------------------------
-# Flame Premium
-# -------------------------------------------------
-#launch_flame_premium:
-#  defer_keyword: ''
-#  engine: tk-flame
-#  extra: {}
-#  hook_app_launch: default
-#  hook_before_app_launch: default
-#  icon: '{target_engine}/flame_icon_256.png'
-#  linux_args: ''
-#  linux_path: '@flame_premium_linux'
-#  location:
-#    version: v0.8.0
-#    type: app_store
-#    name: tk-multi-launchapp
-#  mac_args: ''
-#  mac_path: ''
-#  menu_name: Launch FlamePremium # note: desktop app means we cannot have spaces in app name
-#  versions: []
-#  windows_args: ''
-#  windows_path: ''
-#
-# -------------------------------------------------
 # Flame Assist
 # -------------------------------------------------
 launch_flame_assist:

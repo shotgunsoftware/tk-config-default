@@ -86,11 +86,6 @@ flame_linux: /opt/Autodesk/flame_2018.3/bin/startApplication
 flame_mac: /opt/Autodesk/flame_2018.3/bin/startApplication
 
 #
-# Flame Premium
-#
-#flame_premium_linux: /opt/Autodesk/flamepremium_2018.3/bin/startApplication
-
-#
 # Flame Assist
 #
 flame_assist_mac: /opt/Autodesk/flameassist_2018.3/bin/startApplication

@@ -55,7 +55,6 @@ engines:
       tk-multi-launchflame: '@launch_flame'
       tk-multi-launchflare: '@launch_flare'
       tk-multi-launchflameassist: '@launch_flame_assist'
-      #tk-multi-launchflamepremium: '@launch_flame_premium'
       tk-multi-launchhiero: '@launch_hiero'
       tk-multi-launchhoudini: '@launch_houdini'
       tk-multi-launchmari: '@launch_mari'
@@ -540,7 +539,6 @@ engines:
       tk-multi-launchflame: '@launch_flame'
       tk-multi-launchflare: '@launch_flare'
       tk-multi-launchflameassist: '@launch_flame_assist'
-      #tk-multi-launchflamepremium: '@launch_flame_premium'
     location:
       version: v0.5.1
       type: app_store

@@ -37,7 +37,6 @@ engines:
       tk-multi-launchflame: '@launch_flame'
       tk-multi-launchflare: '@launch_flare'
       tk-multi-launchflameassist: '@launch_flame_assist'
-      #tk-multi-launchflamepremium: '@launch_flame_premium'
       tk-multi-launchmaya: '@launch_maya'
       tk-multi-launchmotionbuilder: '@launch_motionbuilder'
       tk-multi-launchnuke: '@launch_nuke'
