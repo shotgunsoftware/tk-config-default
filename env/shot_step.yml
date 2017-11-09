@@ -1304,11 +1304,128 @@ engines:
       tk-multi-launchmotionbuilder: '@launch_motionbuilder'
       tk-multi-launchnuke: '@launch_nuke'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
+      tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
     location:
       version: v0.5.1
       type: app_store
       name: tk-shell
+  #
+  # -------------------------------------------------
+  # Softimage
+  # -------------------------------------------------
+  tk-softimage:
+    apps:
+      tk-multi-about: '@about'
+      tk-multi-publish:
+        allow_taskless_publishes: true
+        display_name: Publish
+        expand_single_items: false
+        hook_copy_file: default
+        hook_post_publish: default
+        hook_primary_pre_publish: default
+        hook_primary_publish: default
+        hook_scan_scene: default
+        hook_secondary_pre_publish: default
+        hook_secondary_publish: default
+        hook_thumbnail: default
+        location:
+          version: v0.10.0
+          type: app_store
+          name: tk-multi-publish
+        primary_description: Publish and version up the current Softimage scene
+        primary_display_name: Softimage Publish
+        primary_icon: icons/publish_softimage_main.png
+        primary_publish_template: softimage_shot_publish
+        primary_scene_item_type: work_file
+        primary_tank_type: Softimage Scene
+        secondary_outputs: []
+        template_work: softimage_shot_work
+      tk-multi-screeningroom: '@launch_screeningroom'
+      tk-multi-setframerange:
+        location:
+          version: v0.3.0
+          type: app_store
+          name: tk-multi-setframerange
+        sg_in_frame_field: sg_cut_in
+        sg_out_frame_field: sg_cut_out
+      tk-multi-snapshot:
+        hook_copy_file: default
+        hook_scene_operation: default
+        hook_thumbnail: default
+        location:
+          version: v0.7.0
+          type: app_store
+          name: tk-multi-snapshot
+        template_snapshot: softimage_shot_snapshot
+        template_work: softimage_shot_work
+      tk-multi-workfiles2:
+        allow_task_creation: true
+        create_new_task_hook: default
+        custom_actions_hook: default
+        entities:
+        - caption: Assets
+          entity_type: Task
+          filters:
+          - [entity, type_is, Asset]
+          hierarchy: [entity.Asset.sg_asset_type, entity, step, content]
+        - caption: Shots
+          entity_type: Task
+          filters:
+          - [entity, type_is, Shot]
+          hierarchy: [entity.Shot.sg_sequence, entity, step, content]
+        file_extensions: []
+        hook_copy_file: default
+        hook_filter_publishes: default
+        hook_filter_work_files: default
+        hook_scene_operation: default
+        launch_at_startup: false
+        location:
+          version: v0.9.0
+          type: app_store
+          name: tk-multi-workfiles2
+        my_tasks_extra_display_fields: []
+        saveas_default_name: scene
+        saveas_prefer_version_up: false
+        show_my_tasks: true
+        template_publish: softimage_shot_publish
+        template_publish_area: shot_publish_area_softimage
+        template_work: softimage_shot_work
+        template_work_area: shot_work_area_softimage
+        version_compare_ignore_fields: []
+      tk-multi-shotgunpanel:
+        location:
+          version: v1.3.0
+          type: app_store
+          name: tk-multi-shotgunpanel
+        shotgun_fields_hook: '{self}/shotgun_fields.py'
+        actions_hook: '{self}/general_actions.py'
+        action_mappings:
+          PublishedFile:
+          - actions:
+            - publish_clipboard
+            filters: {}
+          Task:
+          - actions:
+            - assign_task
+            - task_to_ip
+            filters: {}
+          Version:
+          - actions:
+            - quicktime_clipboard
+            - sequence_clipboard
+            filters: {}
+    debug_logging: false
+    location:
+      version: v0.3.2
+      type: app_store
+      name: tk-softimage
+    menu_favourites:
+    - {app_instance: tk-multi-workfiles2, name: File Open...}
+    - {app_instance: tk-multi-snapshot, name: Snapshot...}
+    - {app_instance: tk-multi-workfiles2, name: File Save...}
+    - {app_instance: tk-multi-publish, name: Publish...}
+    template_project: shot_work_area_softimage
 #
 ###############################################################################
 #
@@ -1319,3 +1436,8 @@ engines:
 # Frameworks are automatically installed when apps are installed and udpated.
 #
 frameworks:
+  tk-framework-softimageqt_v1.0.1:
+    location:
+      name: tk-framework-softimageqt
+      type: app_store
+      version: v1.0.1
