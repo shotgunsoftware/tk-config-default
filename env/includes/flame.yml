@@ -105,7 +105,7 @@ std_flame_flare:
   #
   debug_logging: true
   location:
-    version: v1.9.9
+    version: v1.10.0
     type: app_store
     name: tk-flame
   project_startup_hook: '{self}/project_startup.py'

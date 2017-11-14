@@ -16,53 +16,53 @@
 #
 # Mari
 #
-mari_linux: 'Mari3.0'
-mari_mac: /Applications/Mari3.0v2
-mari_windows: 'C:\Program Files\Mari3.0v2\Bundle\bin\Mari3.0v2.exe'
+mari_linux: 'Mari3.3'
+mari_mac: /Applications/Mari3.3v1/Mari3.3v1.app
+mari_windows: 'C:\Program Files\Mari3.3v1\Bundle\bin\Mari3.3v1.exe'
 
 
 #
 # Maya
 #
-maya_windows: 'C:\Program Files\Autodesk\Maya2015\bin\maya.exe'
-maya_mac: /Applications/Autodesk/maya2015/Maya.app
+maya_windows: 'C:\Program Files\Autodesk\Maya2018\bin\maya.exe'
+maya_mac: /Applications/Autodesk/maya2018/Maya.app
 maya_linux: maya
 
 
 #
 # Nuke
 #
-nuke_mac: /Applications/Nuke9.0v8/Nuke9.0v8.app
-nuke_windows: 'C:\Program Files\Nuke9.0v8\Nuke9.0.exe'
-nuke_linux: Nuke9.0
+nuke_mac: /Applications/Nuke11.0v1/Nuke11.0v1.app
+nuke_windows: 'C:\Program Files\Nuke11.0v1\Nuke11.0.exe'
+nuke_linux: Nuke11.0
 
 
 #
 # Nuke Studio
 #
-nukestudio_mac: /Applications/Nuke9.0v8/NukeStudio9.0v8.app
-nukestudio_windows: 'C:\Program Files\Nuke9.0v8\Nuke9.0.exe'
-nukestudio_linux: Nuke9.0
+nukestudio_mac: /Applications/Nuke11.0v1/NukeStudio11.0v1.app
+nukestudio_windows: 'C:\Program Files\Nuke11.0v1\Nuke11.0.exe'
+nukestudio_linux: Nuke11.0
 
 
 #
 # motionbuilder
 #
-motionbuilder_windows: 'C:\Program Files\Autodesk\MotionBuilder 2014\bin\x64\motionbuilder.exe'
+motionbuilder_windows: 'C:\Program Files\Autodesk\MotionBuilder 2017\bin\x64\motionbuilder.exe'
 
 
 #
 # 3dsmax 2015
 #
-3dsmax_windows: 'C:\Program Files\Autodesk\3ds Max 2015\3dsmax.exe'
+3dsmax_windows: 'C:\Program Files\Autodesk\3ds Max 2018\3dsmax.exe'
 
 
 #
 # Houdini
 #
-houdini_mac: /Applications/Houdini 15.0.244.16/Houdini.app
-houdini_windows: 'C:\Program Files\Side Effects Software\Houdini 15.0.244.16\bin\houdini.exe'
-houdini_linux: '/opt/hfs15.0.244.16/bin/houdini'
+houdini_mac: /Applications/Houdini/Houdini16.0.736/Houdini FX 16.0.736.app
+houdini_windows: 'C:\Program Files\Side Effects Software\Houdini 16.0.736\bin\houdinifx.exe'
+houdini_linux: '/opt/hfs16.0.736/bin/houdinifx'
 
 
 #
@@ -75,9 +75,9 @@ photoshop_win: 'C:\Program Files\Adobe\Adobe Photoshop CC 2017\Photoshop.exe'
 #
 # Hiero
 #
-hiero_mac: /Applications/Nuke9.0v8/Hiero9.0v8.app
-hiero_win: 'C:\Program Files\Nuke9.0v8\Nuke9.0.exe'
-hiero_linux: Nuke9.0
+hiero_mac: /Applications/Nuke11.0v1/Hiero11.0v1.app
+hiero_win: 'C:\Program Files\Nuke11.0v1\Nuke11.0.exe'
+hiero_linux: Nuke11.0
 
 #
 # Flame
@@ -108,5 +108,5 @@ softimage_windows: C:\Program Files\Autodesk\Softimage 2013\Application\bin\XSI.
 # Tweak RV
 #
 rv_mac: /Applications/RV64.app
-rv_win: C:\Program Files\RV\RV64.exe
+rv_win: C:\Program Files\Shotgun\RV-7.2.1\bin\rv.exe
 rv_linux: rv
