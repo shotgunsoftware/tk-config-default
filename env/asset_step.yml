@@ -76,7 +76,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current 3ds Max scene
@@ -167,7 +167,7 @@ engines:
     compatibility_dialog_min_version: 2017
     debug_logging: false
     location:
-      version: v0.5.0
+      version: v0.5.1
       type: app_store
       name: tk-3dsmaxplus
     menu_favourites: []
@@ -191,7 +191,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current scene
@@ -431,7 +431,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish items from the current Mari project
@@ -512,7 +512,7 @@ engines:
     compatibility_dialog_min_version: 2
     debug_logging: false
     location:
-      version: v1.1.5
+      version: v1.2.0
       type: app_store
       name: tk-mari
   #
@@ -574,7 +574,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Maya scene
@@ -723,7 +723,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current work file
@@ -803,7 +803,7 @@ engines:
             filters: {}
     debug_logging: false
     location:
-      version: v0.3.1
+      version: v0.4.0
       type: app_store
       name: tk-motionbuilder
     menu_favourites:
@@ -870,7 +870,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publishes and versions up the current Nuke script.
@@ -1010,7 +1010,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.9.2
+      version: v0.9.4
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -1044,7 +1044,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the selected Hiero project
@@ -1240,7 +1240,7 @@ engines:
     compatibility_dialog_min_version: 10
     debug_logging: false
     location:
-      version: v0.9.2
+      version: v0.9.4
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -1298,7 +1298,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Photoshop scene
@@ -1425,7 +1425,7 @@ engines:
         hook_secondary_publish: default
         hook_thumbnail: default
         location:
-          version: v0.10.7
+          version: v0.10.8
           type: app_store
           name: tk-multi-publish
         primary_description: Publish and version up the current Softimage scene
@@ -1505,7 +1505,7 @@ engines:
             filters: {}
     debug_logging: false
     location:
-      version: v0.3.3
+      version: v0.3.4
       type: app_store
       name: tk-softimage
     menu_favourites:
