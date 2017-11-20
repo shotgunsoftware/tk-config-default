@@ -25,6 +25,8 @@ includes:
 - ./includes/app_launchers.yml
 # common app configurations that are reused across environments
 - ./includes/common_apps.yml
+# include flame launchers
+- ./includes/flame.yml
 
 #################################################################################################
 # define all the items that should appear in this environment
@@ -44,7 +46,7 @@ engines:
     compatibility_dialog_min_version: 2017
     debug_logging: false
     location:
-      version: v0.2.0
+      version: v0.5.1
       type: app_store
       name: tk-3dsmaxplus
     menu_favourites: []
@@ -59,7 +61,7 @@ engines:
       tk-multi-screeningroom: '@launch_screeningroom'
       tk-multi-workfiles2: '@workfiles2'
     location:
-      version: v1.0.10
+      version: v1.3.0
       type: app_store
       name: tk-houdini
     enable_sg_shelf: true
@@ -79,7 +81,7 @@ engines:
     compatibility_dialog_min_version: 2015
     debug_logging: false
     location:
-      version: v0.7.14
+      version: v0.9.1
       type: app_store
       name: tk-maya
     menu_favourites:
@@ -99,7 +101,7 @@ engines:
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
     location:
-      version: v0.3.1
+      version: v0.4.0
       type: app_store
       name: tk-motionbuilder
     menu_favourites:
@@ -120,7 +122,7 @@ engines:
     debug_logging: false
     favourite_directories: []
     location:
-      version: v0.6.11
+      version: v0.9.4
       type: app_store
       name: tk-nuke
     menu_favourites:
@@ -145,9 +147,19 @@ engines:
     - {app_instance: tk-multi-workfiles2, name: File Save...}
     debug_logging: false
     location:
-      version: v1.0.1
+      version: v1.2.0
       type: app_store
       name: tk-photoshopcc
+  #
+  # -------------------------------------------------
+  # Flame
+  # -------------------------------------------------
+  tk-flame: '@std_flame_flare'
+  #
+  # -------------------------------------------------
+  # Flare
+  # -------------------------------------------------
+  tk-flare: '@std_flame_flare'
   #
   # -------------------------------------------------
   # Shell (tank command)
@@ -159,11 +171,13 @@ engines:
       tk-multi-launchmaya: '@launch_maya'
       tk-multi-launchmotionbuilder: '@launch_motionbuilder'
       tk-multi-launchnuke: '@launch_nuke'
+      tk-multi-launchflare: '@launch_flare'
+      tk-multi-launchflame: '@launch_flame'
       tk-multi-launchphotoshopcc: '@launch_photoshopcc'
       tk-multi-launchsoftimage: '@launch_softimage'
       tk-multi-screeningroom: '@launch_screeningroom'
     location:
-      version: v0.5.1
+      version: v0.6.0
       type: app_store
       name: tk-shell
   #
@@ -178,7 +192,7 @@ engines:
       tk-multi-workfiles2: '@workfiles2'
     debug_logging: false
     location:
-      version: v0.3.2
+      version: v0.3.4
       type: app_store
       name: tk-softimage
     menu_favourites:
