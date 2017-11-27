@@ -14,6 +14,7 @@
 includes:
 # first include the configuration's global settings for application paths
 - ./paths.yml
+- ./common_apps.yml
 
 # now include overrides - these will be loaded if they are found
 - sequences/{Sequence}/{Shot}/sgtk_overrides.yml
