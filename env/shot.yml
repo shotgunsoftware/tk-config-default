@@ -147,7 +147,7 @@ engines:
     - {app_instance: tk-multi-workfiles2, name: File Save...}
     debug_logging: false
     location:
-      version: v1.2.0
+      version: v1.2.1
       type: app_store
       name: tk-photoshopcc
   #

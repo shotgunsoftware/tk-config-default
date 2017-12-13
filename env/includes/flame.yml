@@ -22,14 +22,13 @@ std_flame_flare:
     #
     tk-flame-review:
       location:
-        version: v1.1.4
+        version: v1.1.5
         type: app_store
         name: tk-flame-review
       task_template: ''
       shotgun_entity_type: Sequence
       menu_name: Submit for Shotgun review
       settings_hook: '{self}/settings.py'
-
     #
     # Complex pipeline based on managed media with shot based
     # review and export.
@@ -79,7 +78,7 @@ std_flame_flare:
     #
     tk-multi-shotgunpanel:
       location:
-        version: v1.4.8
+        version: v1.4.9
         type: app_store
         name: tk-multi-shotgunpanel
       shotgun_fields_hook: '{self}/shotgun_fields.py'
@@ -99,13 +98,12 @@ std_flame_flare:
           - quicktime_clipboard
           - sequence_clipboard
           filters: {}
-
   #
   # Flame engine settings
   #
   debug_logging: true
   location:
-    version: v1.10.0
+    version: v1.11.4
     type: app_store
     name: tk-flame
   project_startup_hook: '{self}/project_startup.py'
@@ -116,3 +114,14 @@ std_flame_flare:
   run_at_startup: []
   backburner_manager: ''
   context_menu: []
+frameworks:
+  tk-framework-shotgunutils_v5.x.x:
+    location:
+      version: v5.2.4
+      type: app_store
+      name: tk-framework-shotgunutils
+  tk-framework-qtwidgets_v2.x.x:
+    location:
+      version: v2.6.6
+      type: app_store
+      name: tk-framework-qtwidgets

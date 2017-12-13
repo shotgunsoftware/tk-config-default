@@ -38,7 +38,7 @@ launch_3dsmax:
   linux_args: ''
   linux_path: ''
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -61,7 +61,7 @@ launch_flame:
   linux_args: ''
   linux_path: '@flame_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -84,7 +84,7 @@ launch_flame_assist:
   linux_args: ''
   linux_path: '@flame_assist_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -107,7 +107,7 @@ launch_flare:
   linux_args: ''
   linux_path: '@flare_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -130,7 +130,7 @@ launch_hiero:
   linux_args: --hiero
   linux_path: '@hiero_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -153,7 +153,7 @@ launch_houdini:
   linux_args: ''
   linux_path: '@houdini_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -176,7 +176,7 @@ launch_mari:
   linux_args: ''
   linux_path: '@mari_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -199,7 +199,7 @@ launch_maya:
   linux_args: ''
   linux_path: '@maya_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -222,7 +222,7 @@ launch_motionbuilder:
   linux_args: ''
   linux_path: ''
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -245,7 +245,7 @@ launch_nuke:
   linux_args: ''
   linux_path: '@nuke_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -268,7 +268,7 @@ launch_nukestudio:
   linux_args: --studio
   linux_path: '@nukestudio_linux'
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -291,7 +291,7 @@ launch_photoshopcc:
   linux_args: ''
   linux_path: ''
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
@@ -308,7 +308,7 @@ launch_screeningroom:
   enable_rv_mode: true
   enable_web_mode: true
   location:
-    version: v0.3.2
+    version: v0.3.3
     type: app_store
     name: tk-multi-screeningroom
   rv_path_linux: '@rv_linux'
@@ -329,7 +329,7 @@ launch_softimage:
   linux_args: ''
   linux_path: ''
   location:
-    version: v0.9.13
+    version: v0.9.15
     type: app_store
     name: tk-multi-launchapp
   mac_args: ''
