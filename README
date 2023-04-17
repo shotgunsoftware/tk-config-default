@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------
-The Shotgun Pipeline Toolkit Standard Project Configuration
+The Shotgrid Pipeline Toolkit Standard Project Configuration
 -------------------------------------------------------------------------
 
-Welcome to the Shotgun Pipeline Toolkit Standard config! It provides a
+Welcome to the Shotgrid Pipeline Toolkit Standard config! It provides a
 starting point for experimentation and testing and will help you discover
 how everything works!
 
@@ -16,13 +16,13 @@ options can be found in your newly created project:
 - Now navigate to the config/env/includes folder.
 - Open the paths.yml file and edit the settings.
 
-Once things are set up, go to Shotgun:
+Once things are set up, go to Shotgrid:
 
 1. Select some shots, right click and select Create Folders
 3. Right click on a task for one of the shots and try launching Maya/Nuke
-4. Once Maya or Nuke is launched, you should see a Shotgun menu appear
+4. Once Maya or Nuke is launched, you should see a Shotgrid menu appear
 
 For more information, go to the following url:
-https://support.shotgunsoftware.com/hc/en-us/articles/115000068574-Integrations-user-guide
+https://developer.shotgridsoftware.com/d587be80/?title=Integrations+User+Guide
 
 -------------------------------------------------------------------------
